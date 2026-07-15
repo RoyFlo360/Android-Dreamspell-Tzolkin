@@ -4,7 +4,7 @@ Tzolkin Android app at the service of the humanity
 ## 💰 Support the Project
 If you enjoy using this app, please consider supporting its development! Donations help keep the project active and cover development costs.
 
-*   **[Sponsor me on GitHub Sponsors](https://github.com)**
+*   **[Sponsor me on GitHub Sponsors](https://github.com/sponsors/RoyFlo360)**
 *   **[Buy Me a Coffee](buymeacoffee.com/rodrigoflores)**
 
 ---
