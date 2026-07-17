@@ -382,6 +382,7 @@ class KinCombinatorFragment : Fragment(R.layout.kin_combinator) {
         addBtn.setOnClickListener {
             if (selected.isNotEmpty()) { kins.addAll(selected); render(hostView); dialog.dismiss() }
         }
+        dialog.fitSystemBars()
         dialog.show()
     }
 

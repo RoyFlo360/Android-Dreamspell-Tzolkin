@@ -12,6 +12,8 @@ import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.content.ContextCompat
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowInsetsCompat
 import androidx.core.os.LocaleListCompat
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
@@ -43,6 +45,7 @@ class OracleActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_oracle)
+        applySystemBarInsets()
 
         calendar = Calendar.getInstance()
         if (savedInstanceState != null) {
@@ -110,6 +113,27 @@ class OracleActivity : AppCompatActivity() {
 
         updateTitle()
         updateStepper()
+    }
+
+    /**
+     * targetSdk 35+ forces edge-to-edge and Android 16 removed the opt-out, so the window now spans
+     * the system bars and nothing pushed the content clear of them: the top of every
+     * secondaryContainer screen (Moon Phase's caption, the Kin Combinator's tabs) was drawn under
+     * the action bar.
+     *
+     * AppCompat already lays the action bar out, so only the system-bar gaps are ours to add — do
+     * NOT also pad by actionBarSize, that double-counts and drops the content a further 56dp.
+     * Every screen lives under oracleApp, so insetting that one root covers all of them.
+     */
+    private fun applySystemBarInsets() {
+        val root = findViewById<View>(R.id.oracleApp)
+        ViewCompat.setOnApplyWindowInsetsListener(root) { v, windowInsets ->
+            val bars = windowInsets.getInsets(
+                WindowInsetsCompat.Type.systemBars() or WindowInsetsCompat.Type.displayCutout()
+            )
+            v.setPadding(bars.left, bars.top, bars.right, bars.bottom)
+            WindowInsetsCompat.CONSUMED
+        }
     }
 
     override fun onSaveInstanceState(outState: Bundle) {
@@ -315,6 +339,7 @@ class OracleActivity : AppCompatActivity() {
         dialog.findViewById<TextView>(R.id.codexTitle).setText(titleRes)
         dialog.findViewById<ZoomStackView>(R.id.codexZoom).setImages(imageRes.toList())
         dialog.findViewById<View>(R.id.codexClose).setOnClickListener { dialog.dismiss() }
+        dialog.fitSystemBars()
         dialog.show()
     }
 
@@ -332,5 +357,22 @@ class OracleActivity : AppCompatActivity() {
     companion object {
         /** Swipeable primary destinations: Home, Oracle, Wavespell, Tzolkin. */
         private const val PRIMARY_COUNT = 4
+    }
+}
+
+/**
+ * The activity's root inset listener can't reach a Dialog — each one gets its own window. Under the
+ * edge-to-edge that targetSdk 35+ forces, their content ran full-bleed: the Codex viewer's close
+ * button sat under the status bar and the Tzolkin picker's Add/Cancel row under the navigation bar,
+ * leaving both unreachable. Padding the content root keeps every dialog inside the system bars.
+ */
+internal fun android.app.Dialog.fitSystemBars() {
+    val content = window?.findViewById<View>(android.R.id.content) ?: return
+    ViewCompat.setOnApplyWindowInsetsListener(content) { v, windowInsets ->
+        val bars = windowInsets.getInsets(
+            WindowInsetsCompat.Type.systemBars() or WindowInsetsCompat.Type.displayCutout()
+        )
+        v.setPadding(bars.left, bars.top, bars.right, bars.bottom)
+        WindowInsetsCompat.CONSUMED
     }
 }
