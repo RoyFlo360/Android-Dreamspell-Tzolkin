@@ -225,8 +225,5 @@ Idiomas
         <item quantity="other">Combinado · %d kins</item>
     </plurals>
     <string name="strMore">"Uláak'"</string>
-    <string name="btWhatsNew">"Ba'ax túumben"</string>
-    <string name="btYes">Héʼeleʼ</string>
-    <string name="btNo">Maʼ</string>
     <string name="lbContribute">Si quieres contribuir, escribe un correo a otherrealitybelieved@gmail.com</string>
 </resources>
