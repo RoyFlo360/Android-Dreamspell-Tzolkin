@@ -26,6 +26,20 @@ adb shell am start -n com.imix.dreamspell_tzolkin/.OracleActivity
 - After a language/manifest change, do a clean reinstall
   (`adb uninstall com.imix.dreamspell_tzolkin` first) if behavior looks stale.
 
+### Release / Play Store
+
+```bash
+./gradlew :app:bundleRelease   # -> app/build/outputs/bundle/release/app-release.aab
+```
+
+- Signing reads `keystore.properties` at the repo root — **gitignored, never commit it**.
+  It points at the upload keystore, which lives outside the repo. Without that file the
+  release variant simply builds unsigned rather than failing, so fresh clones and CI work.
+- Losing the keystore *and* `keystore.properties` means requesting an upload-key reset
+  from Google. Back both up.
+- Debug and release are signed with different keys, so `adb install` of one over the other
+  fails — `adb uninstall` first.
+
 ## Code layout
 
 - **`Dreamspell.kt`** — pure, testable calendar math (kin/tone/seal, Galactic
@@ -75,4 +89,7 @@ Design notes live in `docs/` (`oracle_psi_design.md`, `kin_combinator_design.md`
   Harmless but present; don't be surprised by them.
 - The palette in `res/values/palette.xml` is chrome only (backgrounds, bars, nav,
   cards, text) — never tint the `glyphN`/`toneN` seal & tone artwork with it.
-- Debug builds only so far — no release signing config yet.
+- `assets/dexopt/baseline.prof` was decompiled out of the original APK and used to live in
+  `src/main/assets/`. AGP generates that exact path for release builds, so it collided and
+  broke `packageRelease` (and silently shipped a stale ART profile in the bundle). It is
+  deleted — never re-add build outputs under `src/main/assets/`.

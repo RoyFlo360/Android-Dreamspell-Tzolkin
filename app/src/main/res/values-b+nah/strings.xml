@@ -225,8 +225,5 @@ Idiomas
         <item quantity="other">Combinado · %d kins</item>
     </plurals>
     <string name="strMore">Oc cequi</string>
-    <string name="btWhatsNew">Tlein yancuīc</string>
-    <string name="btYes">Quēmah</string>
-    <string name="btNo">Ahmo</string>
     <string name="lbContribute">Si quieres contribuir, escribe un correo a otherrealitybelieved@gmail.com</string>
 </resources>
