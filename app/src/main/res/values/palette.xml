@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- mayan_magic_wisdom_palette — chrome only (backgrounds, bars, nav, cards, text).
+     Never applied to glyphN/toneN seal & tone artwork. See docs/mayan_magic_wisdom_palette.md. -->
+<resources>
+    <color name="mw_obsidian">#191428</color>
+    <color name="mw_amethyst">#4B2E83</color>
+    <color name="mw_amethyst_line">#5C3BA0</color>
+    <color name="mw_jade">#1F5C45</color>
+    <color name="mw_turquoise">#2A9D8F</color>
+    <color name="mw_gold">#C9A227</color>
+    <color name="mw_terracotta">#B5451E</color>
+    <color name="mw_cream">#F2E8D5</color>
+    <color name="mw_cream_dim">#C8BDD6</color>
+    <color name="mw_card">#211A38</color>
+</resources>

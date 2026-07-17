@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Jade caption "textbox" with rounded corners (replaces the flat @color/transparant_bg fill). -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <solid android:color="@color/transparant_bg" />
+    <corners android:radius="18dp" />
+</shape>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size" android:id="@id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/oracle_detail_spacing" android:text="" />
+    <CheckBox android:textSize="@dimen/text_size" android:id="@id/do_not_show_again" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Do not show this message again." />
+</LinearLayout>

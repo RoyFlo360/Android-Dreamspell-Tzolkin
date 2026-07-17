@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Navigeren naar startpositie</string>
+    <string name="abc_action_bar_up_description">Omhoog navigeren</string>
+    <string name="abc_action_menu_overflow_description">Meer opties</string>
+    <string name="abc_action_mode_done">Klaar</string>
+    <string name="abc_activity_chooser_view_see_all">Alles tonen</string>
+    <string name="abc_activitychooserview_choose_application">Een app selecteren</string>
+    <string name="abc_capital_off">UIT</string>
+    <string name="abc_capital_on">AAN</string>
+    <string name="abc_menu_alt_shortcut_label">Alt +</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl +</string>
+    <string name="abc_menu_delete_shortcut_label">Delete</string>
+    <string name="abc_menu_enter_shortcut_label">Enter</string>
+    <string name="abc_menu_function_shortcut_label">Functie +</string>
+    <string name="abc_menu_meta_shortcut_label">Meta +</string>
+    <string name="abc_menu_shift_shortcut_label">Shift +</string>
+    <string name="abc_menu_space_shortcut_label">spatie</string>
+    <string name="abc_menu_sym_shortcut_label">Sym +</string>
+    <string name="abc_prepend_shortcut_label">Menu +</string>
+    <string name="abc_search_hint">Zoeken…</string>
+    <string name="abc_searchview_description_clear">Zoekopdracht wissen</string>
+    <string name="abc_searchview_description_query">Zoekopdracht</string>
+    <string name="abc_searchview_description_search">Zoeken</string>
+    <string name="abc_searchview_description_submit">Zoekopdracht verzenden</string>
+    <string name="abc_searchview_description_voice">Gesproken zoekopdracht</string>
+    <string name="abc_shareactionprovider_share_with">Delen met</string>
+    <string name="abc_shareactionprovider_share_with_application">Delen met %s</string>
+    <string name="abc_toolbar_collapse_description">Samenvouwen</string>
+    <string name="app_id">325055294248980</string>
+    <string name="app_name">Dreamspell Kalender</string>
+    <string name="bottomsheet_action_collapse">Het blad onderaan samenvouwen</string>
+    <string name="bottomsheet_action_expand">Het blad onderaan uitvouwen</string>
+    <string name="bottomsheet_action_expand_halfway">Half uitvouwen</string>
+    <string name="bottomsheet_drag_handle_clicked">Dubbelgetikt op handgreep voor slepen</string>
+    <string name="bottomsheet_drag_handle_content_description">Handgreep voor slepen</string>
+    <string name="btChangeDate">Wijzig Datum</string>
+    <string name="btChangeLanguage">Wijzig Huidige Taal</string>
+    <string name="btChromatics">5-dagen Chromatics</string>
+    <string name="btClose">Sluiten</string>
+    <string name="btCodex">Codex</string>
+    <string name="btHarmonics">4-dagen Harmonics</string>
+    <string name="btHolon">Holon</string>
+    <string name="btNextDay">Volgende dag</string>
+    <string name="btPrevDay">Vorige dag</string>
+    <string name="btShareScreenshot">Deel Een Screenshot</string>
+    <string name="btToday">Vandaag</string>
+    <string name="character_counter_content_description">%1$d van %2$d tekens opgegeven</string>
+    <string name="character_counter_overflowed_content_description">Tekenlimiet heeft %1$d van %2$d overschreden</string>
+    <string name="clear_text_end_icon_content_description">Tekst wissen</string>
+    <string name="dcGlyph">Glyph</string>
+    <string name="dcTone">Tone</string>
+    <string name="error_icon_content_description">Fout</string>
+    <string name="exposed_dropdown_menu_content_description">Dropdownmenu tonen</string>
+    <string name="icon_content_description">Icoon voor dialoogvenster</string>
+    <string name="item_view_role_description">Tabblad</string>
+    <string name="lbAnalog">Analoge</string>
+    <string name="lbAntipode">Uitdaging</string>
+    <string name="lbControlsHelpBottom">"Als je een glyph aantikt, verschijnt de verklaring van de zegel en de toon die erbij hoort.
+
+Er is ook een widget voor het startscherm om de huidige datum weer te geven."</string>
+    <string name="lbControlsHelpTop">In de bovenste balk zijn er knoppen die u toestaan om snel de datum te wijzigen. Het is mogelijk dat je niet alle knoppen ziet die hier worden getoond, het aantal knoppen die u ziet zijn afhankelijk van uw scherm breedte:</string>
+    <string name="lbCredits">De Dreamspell is oorspronkelijk gemaakt door José Argüelles en wordt onderhouden door www.lawoftime.org</string>
+    <string name="lbGuide">Gids</string>
+    <string name="lbHelpIntro">"Deze app presenteert een galactisch synchronair orakel, gebouwd op een metafysica die de energieën van specifieke data weerspiegelt. Dit is een spiritueel orakel voor zelfkennis, om het universum in jezelf te ontdekken; het is gebaseerd op de kalenders van de Maya-beschaving. Dit orakel heeft geen historische waarde.
+
+Het orakel dat als eerste wordt getoond (de Galactische Signatuur) is altijd het orakel van vandaag. Je kunt elke datum kiezen die belangrijk voor je is. De meeste mensen kiezen hun eigen verjaardag, maar het kan elke andere bijzondere dag zijn."</string>
+    <string name="lbMenuHelp">Afhankelijk van wat voor soort apparaat je hebt, heb je een software menu-toets of een hardware menu-knop. Beiden hebben dezelfde functie, om het menu te tonen.</string>
+    <string name="lbMenuItemsHelp">In het menu zijn er items die extra functionaliteit bieden. Het is mogelijk dat je niet alle items kunt zien die hier worden getoond, het aantal items die u ziet is afhankelijk van uw schermbreedte.</string>
+    <string name="lbNextHelp">Deze knop wordt gebruikt om naar de volgende dag te gaan.</string>
+    <string name="lbOccult">Verborgen</string>
+    <string name="lbPrevHelp">Deze knop wordt gebruikt om naar de vorige dag te gaan.</string>
+    <string name="lbThanks">"- Karine Grimoux voor de Franse vertalingen.
+- Dimsanta voor de Russische vertalingen.
+- Roberto voor de Spaanse vertalingen.
+- Warrenchen voor de Chinese vertalingen."</string>
+    <string name="lbThanksTitle">Met dank aan:</string>
+    <string name="lbTodayHelp">Deze knop wordt gebruikt om naar vandaag te gaan.</string>
+    <string name="material_clock_toggle_content_description">Selecteer a.m. of p.m.</string>
+    <string name="material_hour_24h_suffix">%1$s uur</string>
+    <string name="material_hour_selection">Selecteer uur</string>
+    <string name="material_hour_suffix">%1$s uur</string>
+    <string name="material_minute_selection">Minuten selecteren</string>
+    <string name="material_minute_suffix">%1$s minuten</string>
+    <string name="material_timepicker_am">a.m.</string>
+    <string name="material_timepicker_clock_mode_description">Schakel naar de klokmodus om de tijd in te voeren.</string>
+    <string name="material_timepicker_hour">Uur</string>
+    <string name="material_timepicker_minute">Minuut</string>
+    <string name="material_timepicker_pm">p.m.</string>
+    <string name="material_timepicker_select_time">Tijd selecteren</string>
+    <string name="material_timepicker_text_input_mode_description">Schakel naar de tekstinvoermodus om de tijd in te voeren.</string>
+    <string name="mtrl_badge_numberless_content_description">Nieuwe melding</string>
+    <string name="mtrl_chip_close_icon_content_description">%1$s verwijderen</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Meer dan %1$d nieuwe meldingen</string>
+    <string name="mtrl_picker_a11y_next_month">Naar volgende maand gaan</string>
+    <string name="mtrl_picker_a11y_prev_month">Naar vorige maand gaan</string>
+    <string name="mtrl_picker_announce_current_selection">Huidige selectie: %1$s</string>
+    <string name="mtrl_picker_cancel">Annuleren</string>
+    <string name="mtrl_picker_confirm">OK</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Selecteer een datum</string>
+    <string name="mtrl_picker_date_header_unselected">Geselecteerde datum</string>
+    <string name="mtrl_picker_day_of_week_column_header">Kolom met dagen: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Ongeldige indeling.</string>
+    <string name="mtrl_picker_invalid_format_example">Voorbeeld: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Gebruik: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Ongeldig bereik.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Naar jaar %1$s navigeren</string>
+    <string name="mtrl_picker_out_of_range">Valt buiten bereik: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Startdatum - %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – einddatum</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Selecteer een periode</string>
+    <string name="mtrl_picker_range_header_unselected">Startdatum - einddatum</string>
+    <string name="mtrl_picker_save">Opslaan</string>
+    <string name="mtrl_picker_text_input_date_hint">Datum</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Einddatum</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Startdatum</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">j</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Overschakelen naar agenda-invoermodus</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Tik om naar dagselectie te schakelen</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Overschakelen naar tekstinvoermodus</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Tik om naar jaarselectie te schakelen</string>
+    <string name="mtrl_timepicker_cancel">Annuleren</string>
+    <string name="mtrl_timepicker_confirm">OK</string>
+    <string name="password_toggle_content_description">Wachtwoord tonen</string>
+    <string name="search_menu_title">Zoeken</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="strAm">Voormiddag</string>
+    <string name="strAmPmExplanation">29 februari/Schrikkeldag staat bekend als 0.0 Hunab Ku - een dag van pure tijdloosheid. Voor verjaardagen op 29 februari: Als u op 29 februari vóór de middag lokale tijd bent geboren, wordt 28 februari gebruikt. Als je bent geboren na de middag lokale tijd, wordt 1 maart gebruikt om je galactische signatuur te vinden.</string>
+    <string name="strAnalog">Analoge kracht</string>
+    <string name="strAntipode">Uitdaging</string>
+    <string name="strChangeDateMessage">Tik op de datumvelden om ze te bewerken.</string>
+    <string name="strChangeDateMessagev11">Dubbeltik op de datumvelden om ze te bewerken.</string>
+    <string name="strChangeDateMessagev21">Druk lang (1 seconde) op de datumvelden om ze te bewerken.</string>
+    <string name="strDestiny">Doel</string>
+    <string name="strExitQuestion">Bent u zeker dat u wilt afsluiten?</string>
+    <string name="strFirstQuarterMoon">Eerste kwartier</string>
+    <string name="strFullMoon">Volle maan</string>
+    <string name="strGuide">Gids</string>
+    <string name="strHelp">HELP</string>
+    <string name="strHome">GALACTISCHE HANDTEKENING</string>
+    <string name="strLastQuarterMoon">Laatste kwartier</string>
+    <string name="strMoonphase">MAANFASE</string>
+    <string name="strNewMoon">Nieuwe maan</string>
+    <string name="strNo">Nee</string>
+    <string name="strOccult">Verborgen kracht</string>
+    <string name="strOracle">BESTEMMINGSORAKEL</string>
+    <string name="strPm">Namiddag</string>
+    <string name="strPsi">PSI CHRONO</string>
+    <string name="strShareScreenshotPermissionsRequired">Deze toestemming is nodig om een screenshot te delen, want de app zal een image-bestand naar uw opslagruimte moeten opslaan alvorens deze te delen.</string>
+    <string name="strThirteenmoon">13 MANEN KALENDER</string>
+    <string name="strTzolkin">TZOLKIN</string>
+    <string name="strWaningCrescentMoon">Asgrauwe maan</string>
+    <string name="strWaningGibbousMoon">Afnemende maan</string>
+    <string name="strWavespell">WAVESPELL</string>
+    <string name="strWaxingCrescentMoon">Jonge maansikkel</string>
+    <string name="strWaxingGibbousMoon">Wassende maan</string>
+    <string name="strWhatsNewContent">"Versie 1.0.0
+
+Een volledige, moderne herbouw van de Dreamspell-kalender.
+
+Functies
+- Galactische Signatuur — je kin, toon en zonnezegel voor elke dag
+- Bestemmingsorakel — het orakel van vijf kins plus het verborgen Psi-Chrono-zegel
+- Golfbetovering — de golfbetovering van 13 tonen van de dag
+- Tzolkin — de volledige matrix van 260 kins met Galactische Activatiepoorten
+- Maanfase — de huidige maanfase en verlichting
+- 13-Manenkalender — het jaar van 13 manen en 28 dagen
+- Kin-combinator — combineer meerdere kins tot één, vanuit datums of de Tzolkin
+- Codex — Harmonieën, Chromatieken en de Menselijke en Planetaire Holon
+- Dagkiezer en datumkiezer om naar elke dag te reizen
+- Helpgids voor elk scherm
+
+Talen
+- Engels
+- Spaans
+- Frans
+- Nederlands
+- Russisch
+- Chinees (vereenvoudigd en traditioneel)
+- Nahuatl
+- Yucateeks Maya"</string>
+    <string name="strWhatsNewTitle">Wat is nieuw?</string>
+    <string name="strYes">Ja</string>
+    <string name="helpNavTitle">"Navigeren"</string>
+    <string name="helpNavIntro">"Veeg naar links of rechts — of tik op een pictogram in de onderste balk — om tussen de vier hoofdschermen te wisselen. Meer opent alleen met een tik."</string>
+    <string name="helpDestSignature">"Galactische Signatuur — de kin van vandaag, zijn toon en zegel."</string>
+    <string name="helpDestOracle">"Bestemmingsorakel — het orakel van vijf zegels plus het verborgen PSI-zegel (Akasha)."</string>
+    <string name="helpDestWavespell">"Wavespell — de golf van 13 dagen van de huidige kin."</string>
+    <string name="helpDestTzolkin">"Tzolkin — de volledige harmonische module van 260 kin."</string>
+    <string name="helpDestMore">"Meer — 13-Manenkalender, maanfase, Holon en de codex."</string>
+    <string name="helpDayTitle">"De dag wijzigen"</string>
+    <string name="helpDayBody">"De ‹ Vandaag ›-kiezer onderaan gaat één dag terug of vooruit. Vandaag blijft gedimd zolang je op vandaag bent en wordt goud zodra je verder gaat — tik erop om terug te springen. Voor een verre datum tik je op het kalenderpictogram in de bovenste balk en kies je een dag."</string>
+    <string name="helpTapTitle">"Een signatuur lezen"</string>
+    <string name="helpTapBody">"Tik op een glyph of toon om de naam, betekenis en kleurfamilie te zien. Zegels behouden hun traditionele kleuren — rood, wit, blauw en geel — en de tonen hun galactische goud."</string>
+    <string name="helpSettingsTitle">"Instellingen"</string>
+    <string name="helpSettingsBody">"Open het tandwiel in de bovenste balk om de taal te wijzigen, te kiezen hoe het PSI-zegel (Akasha) wordt getoond en te lezen wat er nieuw is in deze versie."</string>
+    <string name="kcTitle">"Kin-combinator"</string>
+    <string name="kcModeDate">"Op datum"</string>
+    <string name="kcModeTzolkin">"Uit Tzolkin"</string>
+    <string name="kcDateHint">"Kies een datum om de kin toe te voegen"</string>
+    <string name="kcPickDate">"Datum kiezen"</string>
+    <string name="kcResolvesTo">"Komt overeen met"</string>
+    <string name="kcAddKin">"Kin toevoegen"</string>
+    <string name="kcListHeader">"Te combineren kins"</string>
+    <string name="kcEmpty">"Nog geen kins. Voeg er enkele toe om ze te combineren."</string>
+    <string name="kcResultCap">"Gecombineerd"</string>
+    <string name="kcPickerTitle">"Kies uit Tzolkin"</string>
+    <string name="kcPickerHint">"Tik op kins om te selecteren"</string>
+    <string name="kcPickerSelected">"%d geselecteerd"</string>
+    <string name="kcPickerAdd">"Toevoegen (%d)"</string>
+    <string name="kcClear">"Alles wissen"</string>
+    <string name="kcRemove">"Verwijderen"</string>
+    <string name="strNavSignature">"Signatuur"</string>
+    <string name="strNavOracle">"Orakel"</string>
+    <string name="strNavWavespell">"Wavespell"</string>
+    <string name="strNavTzolkin">"Tzolkin"</string>
+    <string name="tzLegendPortal">"Activatieportaal"</string>
+    <string name="strMoonIllumination">"%1$d%% verlicht"</string>
+    <plurals name="kcResultCount">
+        <item quantity="one">Gecombineerd · %d kin</item>
+        <item quantity="other">Gecombineerd · %d kins</item>
+    </plurals>
+    <string name="lbContribute">Als je wilt bijdragen, stuur dan een e-mail naar otherrealitybelieved@gmail.com</string>
+</resources>

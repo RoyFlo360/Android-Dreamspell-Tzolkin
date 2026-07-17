@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/ScrollView01" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/LinearLayout01" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/big_text_size" android:textStyle="bold" android:textColor="@color/text_color" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/wavespellName" android:background="@drawable/dw_caption_box" android:padding="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/LinearLayout02" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TableLayout android:gravity="center_horizontal" android:id="@id/tableLayout1" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  xmlns:android="http://schemas.android.com/apk/res/android">
+                    <TableRow android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <ImageView android:id="@id/glyphImage1" android:layout_width="@dimen/wavespell_glyph_width" android:layout_height="@dimen/wavespell_glyph_width" android:src="@drawable/glyph1" android:contentDescription="@string/dcGlyph" />
+                        <TextView android:text="" />
+                        <TextView android:text="" />
+                        <TextView android:text="" />
+                        <TextView android:text="" />
+                    </TableRow>
+                    <TableRow android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <ImageView android:id="@id/glyphImage2" android:layout_width="@dimen/wavespell_glyph_width" android:layout_height="@dimen/wavespell_glyph_width" android:src="@drawable/glyph2" android:contentDescription="@string/dcGlyph" />
+                        <TextView android:text="" />
+                        <TextView android:text="" />
+                        <ImageView android:id="@id/glyphImage13" android:layout_width="@dimen/wavespell_glyph_width" android:layout_height="@dimen/wavespell_glyph_width" android:src="@drawable/glyph13" android:contentDescription="@string/dcGlyph" />
+                        <ImageView android:id="@id/glyphImage12" android:layout_width="@dimen/wavespell_glyph_width" android:layout_height="@dimen/wavespell_glyph_width" android:src="@drawable/glyph12" android:contentDescription="@string/dcGlyph" />
+                    </TableRow>
+                    <TableRow android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <ImageView android:id="@id/glyphImage3" android:layout_width="@dimen/wavespell_glyph_width" android:layout_height="@dimen/wavespell_glyph_width" android:src="@drawable/glyph3" android:contentDescription="@string/dcGlyph" />
+                        <TextView android:text="" />
+                        <TextView android:text="" />
+                        <TextView android:text="" />
+                        <ImageView android:id="@id/glyphImage11" android:layout_width="@dimen/wavespell_glyph_width" android:layout_height="@dimen/wavespell_glyph_width" android:src="@drawable/glyph11" android:contentDescription="@string/dcGlyph" />
+                    </TableRow>
+                    <TableRow android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <ImageView android:id="@id/glyphImage4" android:layout_width="@dimen/wavespell_glyph_width" android:layout_height="@dimen/wavespell_glyph_width" android:src="@drawable/glyph4" android:contentDescription="@string/dcGlyph" />
+                        <TextView android:text="" />
+                        <TextView android:text="" />
+                        <TextView android:text="" />
+                        <ImageView android:id="@id/glyphImage10" android:layout_width="@dimen/wavespell_glyph_width" android:layout_height="@dimen/wavespell_glyph_width" android:src="@drawable/glyph10" android:contentDescription="@string/dcGlyph" />
+                    </TableRow>
+                    <TableRow android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <ImageView android:id="@id/glyphImage5" android:layout_width="@dimen/wavespell_glyph_width" android:layout_height="@dimen/wavespell_glyph_width" android:src="@drawable/glyph5" android:contentDescription="@string/dcGlyph" />
+                        <ImageView android:id="@id/glyphImage6" android:layout_width="@dimen/wavespell_glyph_width" android:layout_height="@dimen/wavespell_glyph_width" android:src="@drawable/glyph6" android:contentDescription="@string/dcGlyph" />
+                        <ImageView android:id="@id/glyphImage7" android:layout_width="@dimen/wavespell_glyph_width" android:layout_height="@dimen/wavespell_glyph_width" android:src="@drawable/glyph7" android:contentDescription="@string/dcGlyph" />
+                        <ImageView android:id="@id/glyphImage8" android:layout_width="@dimen/wavespell_glyph_width" android:layout_height="@dimen/wavespell_glyph_width" android:src="@drawable/glyph8" android:contentDescription="@string/dcGlyph" />
+                        <ImageView android:id="@id/glyphImage9" android:layout_width="@dimen/wavespell_glyph_width" android:layout_height="@dimen/wavespell_glyph_width" android:src="@drawable/glyph9" android:contentDescription="@string/dcGlyph" />
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

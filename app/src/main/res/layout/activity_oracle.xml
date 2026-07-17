@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@id/oracleApp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mw_obsidian">
+
+    <!-- Content area. The pager holds only the 4 swipeable primaries; secondaryContainer hosts the
+         click-only "More" screens (13-Moon / Moon Phase / Help) on top of it. -->
+    <FrameLayout
+        android:id="@+id/contentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/galaxy"
+            android:padding="10dp" />
+
+        <FrameLayout
+            android:id="@+id/secondaryContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/galaxy"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <!-- ‹ Today › day stepper, centered above the nav bar. -->
+    <FrameLayout
+        android:id="@+id/stepperBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp">
+
+        <LinearLayout
+            android:id="@+id/stepper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@drawable/mw_stepper_bg"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp">
+
+            <ImageButton
+                android:id="@+id/prevDay"
+                android:layout_width="44dp"
+                android:layout_height="40dp"
+                android:background="?android:attr/selectableItemBackgroundBorderless"
+                android:src="@drawable/previous"
+                android:contentDescription="@string/btPrevDay" />
+
+            <TextView
+                android:id="@+id/todayButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="64dp"
+                android:gravity="center"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:textStyle="bold"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/btToday"
+                android:textColor="@color/mw_cream_dim" />
+
+            <ImageButton
+                android:id="@+id/nextDay"
+                android:layout_width="44dp"
+                android:layout_height="40dp"
+                android:background="?android:attr/selectableItemBackgroundBorderless"
+                android:src="@drawable/next"
+                android:contentDescription="@string/btNextDay" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/mw_amethyst"
+        app:elevation="0dp"
+        app:itemIconTint="@color/mw_nav_item_tint"
+        app:itemTextColor="@color/mw_nav_item_tint"
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/bottom_nav" />
+</LinearLayout>

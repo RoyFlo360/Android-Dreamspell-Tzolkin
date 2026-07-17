@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Help, rewritten for the bottom-nav UI: kept intro + credits, four collapsible topic cards whose
+     icons mirror the navigation bar. Expand/collapse is wired in HelpFragment. -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:padding="12dp">
+
+        <!-- Contribute call-to-action banner. autoLink=email makes the address a mailto: link. -->
+        <TextView android:id="@+id/helpContribute" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:layout_marginBottom="14dp" android:padding="14dp" android:gravity="center"
+            android:background="@drawable/dw_contribute_bg" android:autoLink="email"
+            android:textSize="@dimen/text_size" android:textStyle="bold"
+            android:textColor="@color/mw_cream" android:textColorLink="@color/mw_gold"
+            android:text="@string/lbContribute" />
+
+        <!-- KEPT: intro -->
+        <TextView android:id="@id/HelpIntro" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:padding="@dimen/help_spacing" android:layout_marginBottom="8dp"
+            android:textSize="@dimen/text_size" android:textColor="@color/text_color" android:text="@string/lbHelpIntro" />
+
+        <!-- ===== Getting around ===== -->
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:background="@drawable/mw_help_card" android:layout_marginBottom="8dp">
+            <LinearLayout android:id="@+id/helpNavHeader" android:orientation="horizontal" android:gravity="center_vertical"
+                android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="12dp"
+                android:clickable="true" android:focusable="true" android:background="?android:attr/selectableItemBackground">
+                <ImageView android:layout_width="24dp" android:layout_height="24dp" android:layout_marginEnd="11dp"
+                    android:src="@drawable/ic_nav_home" android:tint="@color/mw_gold" android:contentDescription="@null" />
+                <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+                    android:textSize="@dimen/text_size" android:textStyle="bold" android:textColor="@color/mw_gold" android:text="@string/helpNavTitle" />
+                <TextView android:id="@+id/helpNavChevron" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="▾" android:textColor="@color/mw_gold" android:textSize="16sp" />
+            </LinearLayout>
+            <LinearLayout android:id="@+id/helpNavBody" android:orientation="vertical"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:paddingLeft="12dp" android:paddingRight="12dp" android:paddingBottom="12dp">
+                <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="6dp"
+                    android:textSize="@dimen/text_size" android:textColor="@color/text_color" android:text="@string/helpNavIntro" />
+                <LinearLayout android:orientation="horizontal" android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingTop="5dp" android:paddingBottom="5dp">
+                    <ImageView android:layout_width="20dp" android:layout_height="20dp" android:layout_marginEnd="9dp" android:src="@drawable/ic_nav_home" android:tint="@color/text_color" android:contentDescription="@null" />
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:textSize="@dimen/text_size" android:textColor="@color/text_color" android:text="@string/helpDestSignature" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingTop="5dp" android:paddingBottom="5dp">
+                    <ImageView android:layout_width="20dp" android:layout_height="20dp" android:layout_marginEnd="9dp" android:src="@drawable/ic_nav_oracle" android:tint="@color/text_color" android:contentDescription="@null" />
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:textSize="@dimen/text_size" android:textColor="@color/text_color" android:text="@string/helpDestOracle" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingTop="5dp" android:paddingBottom="5dp">
+                    <ImageView android:layout_width="20dp" android:layout_height="20dp" android:layout_marginEnd="9dp" android:src="@drawable/ic_nav_wavespell" android:tint="@color/text_color" android:contentDescription="@null" />
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:textSize="@dimen/text_size" android:textColor="@color/text_color" android:text="@string/helpDestWavespell" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingTop="5dp" android:paddingBottom="5dp">
+                    <ImageView android:layout_width="20dp" android:layout_height="20dp" android:layout_marginEnd="9dp" android:src="@drawable/ic_nav_tzolkin" android:tint="@color/text_color" android:contentDescription="@null" />
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:textSize="@dimen/text_size" android:textColor="@color/text_color" android:text="@string/helpDestTzolkin" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingTop="5dp" android:paddingBottom="5dp">
+                    <ImageView android:layout_width="20dp" android:layout_height="20dp" android:layout_marginEnd="9dp" android:src="@drawable/ic_nav_more" android:tint="@color/text_color" android:contentDescription="@null" />
+                    <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:textSize="@dimen/text_size" android:textColor="@color/text_color" android:text="@string/helpDestMore" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- ===== Changing the day ===== -->
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:background="@drawable/mw_help_card" android:layout_marginBottom="8dp">
+            <LinearLayout android:id="@+id/helpDayHeader" android:orientation="horizontal" android:gravity="center_vertical"
+                android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="12dp"
+                android:clickable="true" android:focusable="true" android:background="?android:attr/selectableItemBackground">
+                <ImageView android:layout_width="24dp" android:layout_height="24dp" android:layout_marginEnd="11dp"
+                    android:src="@drawable/selectday" android:tint="@color/mw_gold" android:contentDescription="@null" />
+                <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+                    android:textSize="@dimen/text_size" android:textStyle="bold" android:textColor="@color/mw_gold" android:text="@string/helpDayTitle" />
+                <TextView android:id="@+id/helpDayChevron" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="▸" android:textColor="@color/mw_gold" android:textSize="16sp" />
+            </LinearLayout>
+            <TextView android:id="@+id/helpDayBody" android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:paddingLeft="12dp" android:paddingRight="12dp" android:paddingBottom="12dp" android:visibility="gone"
+                android:textSize="@dimen/text_size" android:textColor="@color/text_color" android:text="@string/helpDayBody" />
+        </LinearLayout>
+
+        <!-- ===== Reading a signature ===== -->
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:background="@drawable/mw_help_card" android:layout_marginBottom="8dp">
+            <LinearLayout android:id="@+id/helpTapHeader" android:orientation="horizontal" android:gravity="center_vertical"
+                android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="12dp"
+                android:clickable="true" android:focusable="true" android:background="?android:attr/selectableItemBackground">
+                <ImageView android:layout_width="24dp" android:layout_height="24dp" android:layout_marginEnd="11dp"
+                    android:src="@drawable/ic_nav_oracle" android:tint="@color/mw_gold" android:contentDescription="@null" />
+                <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+                    android:textSize="@dimen/text_size" android:textStyle="bold" android:textColor="@color/mw_gold" android:text="@string/helpTapTitle" />
+                <TextView android:id="@+id/helpTapChevron" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="▸" android:textColor="@color/mw_gold" android:textSize="16sp" />
+            </LinearLayout>
+            <TextView android:id="@+id/helpTapBody" android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:paddingLeft="12dp" android:paddingRight="12dp" android:paddingBottom="12dp" android:visibility="gone"
+                android:textSize="@dimen/text_size" android:textColor="@color/text_color" android:text="@string/helpTapBody" />
+        </LinearLayout>
+
+        <!-- ===== Settings ===== -->
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:background="@drawable/mw_help_card" android:layout_marginBottom="12dp">
+            <LinearLayout android:id="@+id/helpSetHeader" android:orientation="horizontal" android:gravity="center_vertical"
+                android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="12dp"
+                android:clickable="true" android:focusable="true" android:background="?android:attr/selectableItemBackground">
+                <ImageView android:layout_width="24dp" android:layout_height="24dp" android:layout_marginEnd="11dp"
+                    android:src="@drawable/ic_gear" android:tint="@color/mw_gold" android:contentDescription="@null" />
+                <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+                    android:textSize="@dimen/text_size" android:textStyle="bold" android:textColor="@color/mw_gold" android:text="@string/helpSettingsTitle" />
+                <TextView android:id="@+id/helpSetChevron" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:text="▸" android:textColor="@color/mw_gold" android:textSize="16sp" />
+            </LinearLayout>
+            <TextView android:id="@+id/helpSetBody" android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:paddingLeft="12dp" android:paddingRight="12dp" android:paddingBottom="12dp" android:visibility="gone"
+                android:textSize="@dimen/text_size" android:textColor="@color/text_color" android:text="@string/helpSettingsBody" />
+        </LinearLayout>
+
+        <!-- Thanks (translators only) -->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:padding="@dimen/help_spacing"
+            android:textSize="@dimen/text_size" android:textStyle="bold" android:textColor="@color/text_color" android:text="@string/lbThanksTitle" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:padding="@dimen/help_spacing"
+            android:textSize="@dimen/text_size" android:textColor="@color/text_color" android:text="@string/lbThanks" />
+
+        <View android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="6dp" android:layout_marginBottom="6dp"
+            android:layout_marginLeft="@dimen/help_spacing" android:layout_marginRight="@dimen/help_spacing" android:background="@color/text_color" />
+
+        <!-- KEPT: credits -->
+        <TextView android:id="@id/Credits" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:padding="@dimen/help_spacing" android:autoLink="web"
+            android:textSize="@dimen/text_size" android:textColor="@color/text_color" android:text="@string/lbCredits" />
+    </LinearLayout>
+</ScrollView>

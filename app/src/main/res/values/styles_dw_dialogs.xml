@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Palette-themed dialogs (P0-1) + themed spinner date picker (P0-2). Wired into DreamspellTheme. -->
+<resources>
+
+    <!-- AppCompat AlertDialogs: kin detail, language, what's new, codex -->
+    <style name="DwAlertDialog" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/dw_dialog_bg</item>
+        <item name="colorAccent">@color/mw_gold</item>
+        <item name="android:textColorPrimary">@color/mw_cream</item>
+        <item name="android:textColorSecondary">@color/mw_cream_dim</item>
+        <item name="android:textColorAlertDialogListItem">@color/mw_cream</item>
+        <item name="buttonBarButtonStyle">@style/DwDialogButton</item>
+    </style>
+
+    <style name="DwDialogButton" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/mw_gold</item>
+    </style>
+
+    <!-- Spinner DatePickerDialog, kept as spinner but recoloured to the palette -->
+    <style name="DwDatePickerDialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowBackground">@drawable/dw_dialog_bg</item>
+        <item name="colorAccent">@color/mw_gold</item>
+        <item name="android:colorControlActivated">@color/mw_gold</item>
+        <item name="android:colorControlNormal">@color/mw_gold</item>
+        <item name="android:textColorPrimary">@color/mw_cream</item>
+        <item name="android:textColorSecondary">@color/mw_cream_dim</item>
+        <item name="android:datePickerStyle">@style/DwDatePicker</item>
+        <item name="buttonBarButtonStyle">@style/DwDialogButton</item>
+    </style>
+
+    <style name="DwDatePicker" parent="@android:style/Widget.Material.DatePicker">
+        <item name="android:datePickerMode">spinner</item>
+        <item name="android:spinnersShown">true</item>
+        <item name="android:calendarViewShown">false</item>
+        <item name="android:startYear">100</item>
+        <item name="android:endYear">9999</item>
+        <item name="android:headerBackground">@color/mw_amethyst</item>
+    </style>
+
+    <!-- Overflow (gear) popup menu -->
+    <style name="DwPopupOverlay" parent="@style/ThemeOverlay.AppCompat">
+        <item name="android:colorBackground">@color/mw_card</item>
+        <item name="android:textColorPrimary">@color/mw_cream</item>
+        <item name="colorAccent">@color/mw_gold</item>
+    </style>
+
+</resources>

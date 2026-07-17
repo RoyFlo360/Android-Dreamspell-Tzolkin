@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Full-screen Tzolkin picker for the Kin Combinator: header + scrollable 260-cell grid + action bar. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/mw_obsidian">
+
+    <LinearLayout android:orientation="horizontal" android:gravity="center_vertical"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:padding="16dp" android:background="@color/mw_amethyst">
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:textSize="18sp" android:textStyle="bold" android:textColor="@color/mw_cream" android:text="@string/kcPickerTitle" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size" android:textColor="@color/mw_cream_dim" android:text="@string/kcPickerHint" />
+        </LinearLayout>
+        <TextView android:id="@+id/kcPickerClose" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:padding="8dp" android:text="✕" android:textSize="20sp" android:textColor="@color/mw_cream"
+            android:clickable="true" android:focusable="true" android:contentDescription="@android:string/cancel"
+            android:background="?android:attr/selectableItemBackgroundBorderless" />
+    </LinearLayout>
+
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"
+        android:fillViewport="true" android:padding="10dp">
+        <LinearLayout android:id="@+id/kcPickerTableHost" android:orientation="vertical"
+            android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center" />
+    </ScrollView>
+
+    <LinearLayout android:orientation="horizontal" android:gravity="end|center_vertical"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:background="@color/mw_card" android:padding="10dp">
+        <TextView android:id="@+id/kcPickerCancel" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:padding="12dp" android:textSize="14sp" android:textColor="@color/mw_cream_dim"
+            android:clickable="true" android:focusable="true" android:text="@android:string/cancel" />
+        <TextView android:id="@+id/kcPickerAdd" android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:padding="12dp" android:layout_marginStart="8dp" android:textSize="14sp" android:textStyle="bold"
+            android:textColor="@color/mw_gold" android:clickable="true" android:focusable="true" />
+    </LinearLayout>
+</LinearLayout>

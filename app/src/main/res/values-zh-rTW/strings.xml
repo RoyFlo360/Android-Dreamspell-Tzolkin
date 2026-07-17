@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">瀏覽首頁</string>
+    <string name="abc_action_bar_up_description">向上瀏覽</string>
+    <string name="abc_action_menu_overflow_description">更多選項</string>
+    <string name="abc_action_mode_done">完成</string>
+    <string name="abc_activity_chooser_view_see_all">查看全部</string>
+    <string name="abc_activitychooserview_choose_application">選擇應用程式</string>
+    <string name="abc_capital_off">關閉</string>
+    <string name="abc_capital_on">開啟</string>
+    <string name="abc_menu_alt_shortcut_label">Alt +</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl +</string>
+    <string name="abc_menu_delete_shortcut_label">Delete 鍵</string>
+    <string name="abc_menu_enter_shortcut_label">Enter 鍵</string>
+    <string name="abc_menu_function_shortcut_label">Fn +</string>
+    <string name="abc_menu_meta_shortcut_label">Meta +</string>
+    <string name="abc_menu_shift_shortcut_label">Shift +</string>
+    <string name="abc_menu_space_shortcut_label">空格鍵</string>
+    <string name="abc_menu_sym_shortcut_label">Sym +</string>
+    <string name="abc_prepend_shortcut_label">Menu +</string>
+    <string name="abc_search_hint">搜尋…</string>
+    <string name="abc_searchview_description_clear">清除查詢</string>
+    <string name="abc_searchview_description_query">搜尋查詢</string>
+    <string name="abc_searchview_description_search">搜尋</string>
+    <string name="abc_searchview_description_submit">提交查詢</string>
+    <string name="abc_searchview_description_voice">語音搜尋</string>
+    <string name="abc_shareactionprovider_share_with">分享對象</string>
+    <string name="abc_shareactionprovider_share_with_application">與「%s」分享</string>
+    <string name="abc_toolbar_collapse_description">收合</string>
+    <string name="app_id">325055294248980</string>
+    <string name="app_name">夢語境</string>
+    <string name="bottomsheet_action_collapse">收合底部功能表</string>
+    <string name="bottomsheet_action_expand">展開底部功能表</string>
+    <string name="bottomsheet_action_expand_halfway">展開一半</string>
+    <string name="bottomsheet_drag_handle_clicked">已輕觸兩下拖曳控點</string>
+    <string name="bottomsheet_drag_handle_content_description">拖曳控點</string>
+    <string name="btChangeDate">調整日期</string>
+    <string name="btChangeLanguage">切換語言</string>
+    <string name="btChromatics">五日色彩</string>
+    <string name="btClose">關閉</string>
+    <string name="btCodex">手繪</string>
+    <string name="btHarmonics">四日色彩</string>
+    <string name="btHolon">全息圖</string>
+    <string name="btNextDay">次日</string>
+    <string name="btPrevDay">前日</string>
+    <string name="btShareScreenshot">分享截圖</string>
+    <string name="btToday">今日</string>
+    <string name="character_counter_content_description">已輸入 %1$d 個字元 (上限為 %2$d 個字元)</string>
+    <string name="character_counter_overflowed_content_description">超過字元限制 (共 %1$d 字元，上限 %2$d 字元)</string>
+    <string name="clear_text_end_icon_content_description">清除文字</string>
+    <string name="dcGlyph">圖騰</string>
+    <string name="dcTone">音頻</string>
+    <string name="error_icon_content_description">錯誤</string>
+    <string name="exposed_dropdown_menu_content_description">顯示下拉式選單</string>
+    <string name="icon_content_description">對話方塊圖示</string>
+    <string name="item_view_role_description">分頁標籤</string>
+    <string name="lbAnalog">支持</string>
+    <string name="lbAntipode">挑戰</string>
+    <string name="lbControlsHelpBottom">"若您點擊任意圖騰，將會顯示該圖騰及音頻的說明。
+
+亦有小工具，可於主畫面顯示當日星際印記。"</string>
+    <string name="lbControlsHelpTop">上方工具列有數個快速切換日期鈕，可見數量端視您的螢幕寬度而定：</string>
+    <string name="lbCredits">夢語境是由 José Argüelles 所創，並設立網站於www.lawoftime.org</string>
+    <string name="lbGuide">指引</string>
+    <string name="lbHelpIntro">"本應用程式提供一個銀河同步盤神諭，以能夠反映特定日期能量的形上學構建而成。這是一個用於自我覺察的心靈神諭，幫助你發現內在的宇宙；它以馬雅文明的曆法為基礎。此神諭不具有歷史價值。
+
+首先顯示的神諭（銀河星印）始終是今天的神諭。你可以選擇任何對你重要的日期。大多數人會選擇自己的生日，但也可以是任何其他特別的日子。"</string>
+    <string name="lbMenuHelp">端視您的行動裝置類別，可能會有軟體選單按鈕或硬體選單按鈕。它們均有相同功能：檢視選單。</string>
+    <string name="lbMenuItemsHelp">在選單裡提供額外功能項目，可視數量端視您的螢幕寬度而定。</string>
+    <string name="lbNextHelp">此鈕可看次日。</string>
+    <string name="lbOccult">潛動力</string>
+    <string name="lbPrevHelp">此鈕可看前日。</string>
+    <string name="lbThanks">"- Karine Grimoux 翻譯法文。
+- Dimsanta 翻譯俄文。
+- Roberto 翻譯西班牙文。
+- Warrenchen 翻譯中文。"</string>
+    <string name="lbThanksTitle">鳴謝：</string>
+    <string name="lbTodayHelp">此鈕可看今日。</string>
+    <string name="material_clock_toggle_content_description">選取上午或下午</string>
+    <string name="material_hour_24h_suffix">%1$s 小時</string>
+    <string name="material_hour_selection">請選取時段</string>
+    <string name="material_hour_suffix">%1$s 點</string>
+    <string name="material_minute_selection">選取分鐘數</string>
+    <string name="material_minute_suffix">%1$s 分</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">切換至時鐘模式來輸入時間。</string>
+    <string name="material_timepicker_hour">小時</string>
+    <string name="material_timepicker_minute">分鐘</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">選取時間</string>
+    <string name="material_timepicker_text_input_mode_description">切換至文字輸入模式來輸入時間。</string>
+    <string name="mtrl_badge_numberless_content_description">新通知</string>
+    <string name="mtrl_chip_close_icon_content_description">移除 %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">超過 %1$d 則新通知</string>
+    <string name="mtrl_picker_a11y_next_month">變更至下個月</string>
+    <string name="mtrl_picker_a11y_prev_month">變更至上個月</string>
+    <string name="mtrl_picker_announce_current_selection">目前選取：%1$s</string>
+    <string name="mtrl_picker_cancel">取消</string>
+    <string name="mtrl_picker_confirm">確定</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">選取日期</string>
+    <string name="mtrl_picker_date_header_unselected">所選日期</string>
+    <string name="mtrl_picker_day_of_week_column_header">星期幾資料欄：%1$s</string>
+    <string name="mtrl_picker_invalid_format">格式無效。</string>
+    <string name="mtrl_picker_invalid_format_example">範例：%1$s</string>
+    <string name="mtrl_picker_invalid_format_use">使用：%1$s</string>
+    <string name="mtrl_picker_invalid_range">日期範圍無效。</string>
+    <string name="mtrl_picker_navigate_to_year_description">前往 %1$s 年</string>
+    <string name="mtrl_picker_out_of_range">超出日期範圍：%1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">開始日期 – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – 結束日期</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">選取範圍</string>
+    <string name="mtrl_picker_range_header_unselected">開始日期 - 結束日期</string>
+    <string name="mtrl_picker_save">儲存</string>
+    <string name="mtrl_picker_text_input_date_hint">日期</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">結束日期</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">開始日期</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">切換至日曆輸入模式</string>
+    <string name="mtrl_picker_toggle_to_day_selection">輕觸即可切換為選取星期幾</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">切換至文字輸入模式</string>
+    <string name="mtrl_picker_toggle_to_year_selection">輕觸即可切換為選取年份</string>
+    <string name="mtrl_timepicker_cancel">取消</string>
+    <string name="mtrl_timepicker_confirm">確定</string>
+    <string name="password_toggle_content_description">顯示密碼</string>
+    <string name="search_menu_title">搜尋</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="strAm">上午</string>
+    <string name="strAmPmExplanation">二月29日/閏日亦可稱為 0.0.Hunab Ku – 一個純粹的無時間日。二月29日的壽星：如果你是在二月29日當地中午前出生，請選擇二月28日；如果是在中午後出生，請選擇三月1日。如此便可定位你的星系印記。</string>
+    <string name="strAnalog">支持力</string>
+    <string name="strAntipode">挑戰</string>
+    <string name="strChangeDateMessage">點擊日期範圍以進行編輯。</string>
+    <string name="strChangeDateMessagev11">雙擊日期欄位以進行編輯。</string>
+    <string name="strChangeDateMessagev21">長按日期欄位 (1秒) 以進行編輯。</string>
+    <string name="strDestiny">天命</string>
+    <string name="strExitQuestion">你確定要離開嗎？</string>
+    <string name="strFirstQuarterMoon">上弦月</string>
+    <string name="strFullMoon">滿月</string>
+    <string name="strGuide">指引</string>
+    <string name="strHelp">說明</string>
+    <string name="strHome">星系印記</string>
+    <string name="strLastQuarterMoon">下弦月</string>
+    <string name="strMoonphase">月相</string>
+    <string name="strNewMoon">新月</string>
+    <string name="strNo">否</string>
+    <string name="strOccult">潛動力</string>
+    <string name="strOracle">天命預言</string>
+    <string name="strPm">下午</string>
+    <string name="strPsi">PSI 共時</string>
+    <string name="strShareScreenshotPermissionsRequired">This permission is required to share a screenshot, because the app will have to save an image file to your storage before sharing it.</string>
+    <string name="strThirteenmoon">13 月曆法</string>
+    <string name="strTzolkin">卓金曆象</string>
+    <string name="strWaningCrescentMoon">殘月</string>
+    <string name="strWaningGibbousMoon">漸虧凸月</string>
+    <string name="strWavespell">波符</string>
+    <string name="strWaxingCrescentMoon">娥眉月</string>
+    <string name="strWaxingGibbousMoon">漸盈凸月</string>
+    <string name="strWhatsNewContent">"版本 1.0.0
+
+Dreamspell 日曆的全面現代重建。
+
+功能
+- 銀河簽印 — 任意一天的 kin、音調和太陽印記
+- 命運神諭 — 五 kin 神諭以及隱藏的 PSI 時序印記
+- 波符 — 當天的 13 音調波符
+- 卓爾金曆 — 完整的 260 kin 矩陣，含銀河啟動之門
+- 月相 — 當前月相與照明度
+- 13 月亮曆 — 13 個月亮、每月 28 天的一年
+- Kin 組合器 — 將多個 kin 合併為一個，來自日期或卓爾金曆
+- 法典 — 和諧、色彩以及人類與行星全息圖
+- 日期步進器與日期選擇器，可前往任意一天
+- 每個介面的說明指南
+
+語言
+- 英語
+- 西班牙語
+- 法語
+- 荷蘭語
+- 俄語
+- 中文（簡體和繁體）
+- 納瓦特爾語
+- 猶加敦馬雅語"</string>
+    <string name="strWhatsNewTitle">最近更新？</string>
+    <string name="strYes">是</string>
+    <string name="helpNavTitle">"瀏覽導覽"</string>
+    <string name="helpNavIntro">"左右滑動，或點按底部列的圖示，即可在四個主要頁面之間切換。「更多」僅能透過點按開啟。"</string>
+    <string name="helpDestSignature">"銀河簽記 — 今日的 kin，及其音調與印記。"</string>
+    <string name="helpDestOracle">"命運神諭 — 五印神諭以及隱藏的 PSI（阿卡西）印記。"</string>
+    <string name="helpDestWavespell">"波符 — 目前 kin 所在的 13 天波符。"</string>
+    <string name="helpDestTzolkin">"卓爾金 — 完整的 260 kin 和諧模組。"</string>
+    <string name="helpDestMore">"更多 — 13 月曆、月相、Holon 與圖典。"</string>
+    <string name="helpDayTitle">"變更日期"</string>
+    <string name="helpDayBody">"底部的 ‹ 今天 › 步進器可前後移動一天。位於今天時「今天」顯示為暗色，離開後變為金色 — 點按即可跳回。若要選擇較遠的日期，請點按頂部列的日曆圖示並選擇任意一天。"</string>
+    <string name="helpTapTitle">"解讀簽記"</string>
+    <string name="helpTapBody">"點按任意圖騰或音調，即可查看其名稱、含義與所屬色系。印記保留其傳統顏色——紅、白、藍、黃——音調則保留銀河金色。"</string>
+    <string name="helpSettingsTitle">"設定"</string>
+    <string name="helpSettingsBody">"點按頂部列的齒輪，可切換語言、選擇 PSI（阿卡西）印記的顯示方式，並查看本版本的新增內容。"</string>
+    <string name="kcTitle">"Kin 組合器"</string>
+    <string name="kcModeDate">"按日期"</string>
+    <string name="kcModeTzolkin">"從卓爾金"</string>
+    <string name="kcDateHint">"選擇日期以新增其 kin"</string>
+    <string name="kcPickDate">"選擇日期"</string>
+    <string name="kcResolvesTo">"對應"</string>
+    <string name="kcAddKin">"新增 kin"</string>
+    <string name="kcListHeader">"要組合的 kin"</string>
+    <string name="kcEmpty">"還沒有 kin。新增一些以進行組合。"</string>
+    <string name="kcResultCap">"組合結果"</string>
+    <string name="kcPickerTitle">"從卓爾金選擇"</string>
+    <string name="kcPickerHint">"點按 kin 進行選擇"</string>
+    <string name="kcPickerSelected">"已選擇 %d 個"</string>
+    <string name="kcPickerAdd">"新增 (%d)"</string>
+    <string name="kcClear">"全部清除"</string>
+    <string name="kcRemove">"移除"</string>
+    <string name="strNavSignature">"簽記"</string>
+    <string name="strNavOracle">"神諭"</string>
+    <string name="strNavWavespell">"波符"</string>
+    <string name="strNavTzolkin">"卓爾金"</string>
+    <string name="tzLegendPortal">"啟動之門"</string>
+    <string name="strMoonIllumination">"%1$d%% 照亮"</string>
+    <plurals name="kcResultCount">
+        <item quantity="other">已組合 · %d 個 kin</item>
+    </plurals>
+    <string name="lbContribute">如果您想貢獻支持，請發送電子郵件至 otherrealitybelieved@gmail.com</string>
+</resources>

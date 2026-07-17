@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- One row in the Kin Combinator list: seal glyph + kin name + remove. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:gravity="center_vertical"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:background="@drawable/mw_help_card" android:padding="9dp" android:layout_marginBottom="7dp">
+    <LinearLayout android:orientation="vertical" android:gravity="center_horizontal"
+        android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="11dp">
+        <ImageView android:id="@+id/kcRowTone" android:layout_width="34dp" android:layout_height="13dp"
+            android:scaleType="fitCenter" android:contentDescription="@string/dcTone" />
+        <ImageView android:id="@+id/kcRowSeal" android:layout_width="34dp" android:layout_height="34dp"
+            android:layout_marginTop="2dp" android:scaleType="fitCenter" android:contentDescription="@string/dcGlyph" />
+    </LinearLayout>
+    <TextView android:id="@+id/kcRowName" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+        android:textSize="@dimen/text_size" android:textColor="@color/mw_cream" />
+    <TextView android:id="@+id/kcRowRemove" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:padding="8dp" android:text="✕" android:textSize="15sp" android:textColor="@color/mw_cream_dim"
+        android:clickable="true" android:focusable="true" android:contentDescription="@string/kcRemove" />
+</LinearLayout>

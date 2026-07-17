@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="glyph_width">130.0dip</dimen>
+    <dimen name="help_helpbuttons_height">48.0dip</dimen>
+    <dimen name="large_glyph_width">260.0dip</dimen>
+    <dimen name="large_tone_height">130.0dip</dimen>
+    <dimen name="oracle_detail_glyph_width">100.0dip</dimen>
+    <dimen name="tone_height">65.0dip</dimen>
+    <dimen name="tzolkin_cell_dimen">29.0dip</dimen>
+    <dimen name="tzolkin_text_size">20.0dip</dimen>
+    <dimen name="wavespell_glyph_width">100.0dip</dimen>
+</resources>

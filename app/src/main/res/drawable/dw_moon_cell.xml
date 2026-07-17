@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 13-Moon calendar cell in the palette (P2-2): amethyst-line gridline + mw_card fill. -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item><shape><solid android:color="@color/mw_amethyst_line" /></shape></item>
+    <item android:left="1.0dip" android:top="1.0dip" android:right="1.0dip" android:bottom="1.0dip">
+        <shape><solid android:color="@color/mw_card" /></shape>
+    </item>
+</layer-list>
