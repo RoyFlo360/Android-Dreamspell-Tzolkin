@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:id="@id/LinearLayout01" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/tonesimage" android:layout_width="@dimen/glyph_width" android:layout_height="wrap_content" android:layout_margin="@dimen/oracle_detail_spacing" android:src="@drawable/tone1" android:contentDescription="@id/tonesname" />
+                <TextView android:textSize="@dimen/big_text_size" android:id="@id/tonesname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/oracle_detail_spacing" android:text="" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/text_size" android:id="@id/tonesdescription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/oracle_detail_spacing" android:text="" />
+            <TextView android:textSize="@dimen/text_size" android:id="@id/tonesexplanation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/oracle_detail_spacing" android:text="" />
+            <View android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:id="@id/LinearLayout02" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/glyphsimage" android:layout_width="@dimen/oracle_detail_glyph_width" android:layout_height="wrap_content" android:layout_margin="@dimen/oracle_detail_spacing" android:src="@drawable/glyph1" android:contentDescription="@id/glyphsname" />
+                <LinearLayout android:orientation="vertical" android:id="@id/LinearLayout03" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/big_text_size" android:id="@id/glyphsname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/oracle_detail_spacing" android:text="" />
+                    <TextView android:textSize="@dimen/text_size" android:id="@id/glyphscolordescription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/oracle_detail_spacing" android:text="" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textSize="@dimen/text_size" android:id="@id/glyphsdescription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/oracle_detail_spacing" android:text="" />
+            <TextView android:textSize="@dimen/text_size" android:id="@id/glyphsexplanation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/oracle_detail_spacing" android:text="" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

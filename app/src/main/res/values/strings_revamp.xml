@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="strMore">More</string>
+    <string name="strSettings">Settings</string>
+    <string name="strPsiAkashic">PSI Chrono (Akashic)</string>
+
+    <!-- Help screen (rewritten for the bottom-nav UI) -->
+    <string name="helpNavTitle">Getting around</string>
+    <string name="helpNavIntro">Swipe left or right — or tap an icon in the bottom bar — to move between the four main screens. More is tap-only.</string>
+    <string name="helpDestSignature">Galactic Signature — today\'s kin, its tone and seal.</string>
+    <string name="helpDestOracle">Destiny Oracle — the five-seal oracle plus the hidden PSI (Akashic) seal.</string>
+    <string name="helpDestWavespell">Wavespell — the 13-day wavespell of the current kin.</string>
+    <string name="helpDestTzolkin">Tzolkin — the full 260-kin harmonic module.</string>
+    <string name="helpDestMore">More — 13-Moon calendar, Moon phase, Holon and the codex.</string>
+    <string name="helpDayTitle">Changing the day</string>
+    <string name="helpDayBody">The ‹ Today › stepper at the bottom moves one day back or forward. Today stays dim while you are on today and turns gold once you move away — tap it to jump back. For a far-off date, tap the calendar icon in the top bar and pick any day.</string>
+    <string name="helpTapTitle">Reading a signature</string>
+    <string name="helpTapBody">Tap any glyph or tone to see its name, meaning and color family. Seals keep their traditional colors — red, white, blue and yellow — and the tones their galactic gold.</string>
+    <string name="helpSettingsTitle">Settings</string>
+    <string name="helpSettingsBody">Open the gear in the top bar to switch language, choose how the PSI (Akashic) seal is shown, and read what is new in this version.</string>
+
+    <!-- Short bottom-nav labels (P0-3: full names truncate) -->
+    <string name="strNavSignature">Signature</string>
+    <string name="strNavOracle">Oracle</string>
+    <string name="strNavWavespell">Wavespell</string>
+    <string name="strNavTzolkin">Tzolkin</string>
+
+    <string name="tzLegendPortal">Activation Portal</string>
+    <string name="strMoonIllumination">%1$d%% illuminated</string>
+
+    <!-- Kin Combinator (More) -->
+    <string name="kcTitle">Kin Combinator</string>
+    <string name="kcModeDate">By date</string>
+    <string name="kcModeTzolkin">From Tzolkin</string>
+    <string name="kcDateHint">Pick a date to add its kin</string>
+    <string name="kcPickDate">Pick a date</string>
+    <string name="kcResolvesTo">Resolves to</string>
+    <string name="kcAddKin">Add kin</string>
+    <string name="kcListHeader">Kins to combine</string>
+    <string name="kcEmpty">No kins yet. Add some to combine them.</string>
+    <string name="kcResultCap">Combined</string>
+    <string name="kcPickerTitle">Pick from Tzolkin</string>
+    <string name="kcPickerHint">Tap kins to select</string>
+    <string name="kcPickerSelected">%d selected</string>
+    <string name="kcPickerAdd">Add (%d)</string>
+    <string name="kcClear">Clear all</string>
+    <string name="kcRemove">Remove</string>
+    <string name="bmcButton">Buy me a coffee</string>
+    <string name="lbContribute">If you want to contribute please write an email to otherrealitybelieved@gmail.com</string>
+    <plurals name="kcResultCount">
+        <item quantity="one">Combined · %d kin</item>
+        <item quantity="other">Combined · %d kins</item>
+    </plurals>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Dotted circle behind the Destiny Oracle cross (tablet layout-sw600dp / Option A). -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
+    <solid android:color="@android:color/transparent" />
+    <stroke android:width="1.5dp" android:color="@color/mw_turquoise" android:dashWidth="2dp" android:dashGap="6dp" />
+</shape>

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Перейти на главный экран</string>
+    <string name="abc_action_bar_up_description">Перейти вверх</string>
+    <string name="abc_action_menu_overflow_description">Ещё</string>
+    <string name="abc_action_mode_done">Готово</string>
+    <string name="abc_activity_chooser_view_see_all">Показать все</string>
+    <string name="abc_activitychooserview_choose_application">Выберите приложение</string>
+    <string name="abc_capital_off">ВЫКЛ</string>
+    <string name="abc_capital_on">ВКЛ</string>
+    <string name="abc_menu_alt_shortcut_label">Alt +</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl +</string>
+    <string name="abc_menu_delete_shortcut_label">Delete</string>
+    <string name="abc_menu_enter_shortcut_label">Ввод</string>
+    <string name="abc_menu_function_shortcut_label">Fn +</string>
+    <string name="abc_menu_meta_shortcut_label">Meta +</string>
+    <string name="abc_menu_shift_shortcut_label">Shift +</string>
+    <string name="abc_menu_space_shortcut_label">Пробел</string>
+    <string name="abc_menu_sym_shortcut_label">Sym +</string>
+    <string name="abc_prepend_shortcut_label">Меню +</string>
+    <string name="abc_search_hint">Введите запрос</string>
+    <string name="abc_searchview_description_clear">Удалить запрос</string>
+    <string name="abc_searchview_description_query">Поисковый запрос</string>
+    <string name="abc_searchview_description_search">Поиск</string>
+    <string name="abc_searchview_description_submit">Отправить запрос</string>
+    <string name="abc_searchview_description_voice">Голосовой поиск</string>
+    <string name="abc_shareactionprovider_share_with">Поделиться с помощью</string>
+    <string name="abc_shareactionprovider_share_with_application">Поделиться с помощью %s</string>
+    <string name="abc_toolbar_collapse_description">Свернуть</string>
+    <string name="app_id">325055294248980</string>
+    <string name="app_name">Dreamspell календарь</string>
+    <string name="bottomsheet_action_collapse">Свернуть нижний экран</string>
+    <string name="bottomsheet_action_expand">Развернуть нижний экран</string>
+    <string name="bottomsheet_action_expand_halfway">Развернуть наполовину</string>
+    <string name="bottomsheet_drag_handle_clicked">Двойное нажатие на маркер перемещения</string>
+    <string name="bottomsheet_drag_handle_content_description">Маркер перемещения</string>
+    <string name="btChangeDate">Изменить дату</string>
+    <string name="btChangeLanguage">Поменять язык</string>
+    <string name="btChromatics">5-day Chromatics</string>
+    <string name="btClose">Закрыть</string>
+    <string name="btCodex">Codex</string>
+    <string name="btHarmonics">4-day Harmonics</string>
+    <string name="btHolon">Holon</string>
+    <string name="btNextDay">Следующий день</string>
+    <string name="btPrevDay">Предыдущий день</string>
+    <string name="btShareScreenshot">Отправить скриншот</string>
+    <string name="btToday">Сегодня</string>
+    <string name="character_counter_content_description">Введено символов: %1$d из %2$d</string>
+    <string name="character_counter_overflowed_content_description">Превышено ограничение на количество символов (%1$d из %2$d)</string>
+    <string name="clear_text_end_icon_content_description">Очистить текстовое поле</string>
+    <string name="dcGlyph">Печать</string>
+    <string name="dcTone">Тон</string>
+    <string name="error_icon_content_description">Ошибка</string>
+    <string name="exposed_dropdown_menu_content_description">Показать раскрывающееся меню</string>
+    <string name="icon_content_description">Значок диалогового окна</string>
+    <string name="item_view_role_description">Вкладка</string>
+    <string name="lbAnalog">Аналог</string>
+    <string name="lbAntipode">Антипод</string>
+    <string name="lbControlsHelpBottom">"Если вы нажмете Печать (КИН), будет показана Печать (КИН) и тон  который будет в этот день.
+
+Существует также виджет для главного экрана, чтобы показать текущую дату."</string>
+    <string name="lbControlsHelpTop">В верхней панели есть кнопки, которые позволяют быстро изменить дату. Возможно, вы не видите все кнопки, показанные здесь, количество кнопок, которые вы видите, зависит от ширины экрана:</string>
+    <string name="lbCredits">Dreamspell изначально был создан Хосе Аргуэллесом и поддерживается www.lawoftime.org</string>
+    <string name="lbGuide">Ведущий</string>
+    <string name="lbHelpIntro">"Это приложение представляет галактический синхронарный оракул, основанный на метафизике, которая отражает энергии определённых дат. Это духовный оракул для самопознания, позволяющий открыть вселенную внутри себя; он основан на календарях цивилизации майя. Этот оракул не имеет исторической ценности.
+
+Первый показанный оракул (Галактическая сигнатура) — это всегда оракул сегодняшнего дня. Вы можете выбрать любую важную для вас дату. Большинство людей выбирают свой день рождения, но это может быть любой другой особенный день."</string>
+    <string name="lbMenuHelp">В зависимости от того, какой тип устройства вы используете, у вас есть кнопка программного меню или кнопка аппаратного меню. Обе имеют ту же функцию, что и для отображения меню.</string>
+    <string name="lbMenuItemsHelp">В меню есть элементы, которые предоставляют дополнительную функциональность. Возможно, вы не видите все элементы, показанные здесь, количество элементов, которые вы видите, будет зависеть от ширины экрана.</string>
+    <string name="lbNextHelp">Эта кнопка используется для перехода на следующий день.</string>
+    <string name="lbOccult">Учитель</string>
+    <string name="lbPrevHelp">Эта кнопка используется для перехода к предыдущему дню.</string>
+    <string name="lbThanks">"- Karine Grimoux в помощи французского перевода.
+- Dimsanta в помощи перевода на Русский язык.
+- Roberto в помощи Испанского перевода.
+- Warrenchen в помощи Китайского перевода."</string>
+    <string name="lbThanksTitle">Благодарности:</string>
+    <string name="lbTodayHelp">Эта кнопка используется для выбора сегоднящнего дня</string>
+    <string name="material_clock_toggle_content_description">Выберите AM (до полудня) или PM (после полудня)</string>
+    <string name="material_hour_24h_suffix">%1$s ч.</string>
+    <string name="material_hour_selection">Выберите час</string>
+    <string name="material_hour_suffix">%1$s ч.</string>
+    <string name="material_minute_selection">Выберите минуты</string>
+    <string name="material_minute_suffix">%1$s мин.</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Чтобы ввести время, перейдите в режим часов.</string>
+    <string name="material_timepicker_hour">Час</string>
+    <string name="material_timepicker_minute">Минуты</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Выбор времени</string>
+    <string name="material_timepicker_text_input_mode_description">Чтобы ввести время, перейдите в режим ввода текста.</string>
+    <string name="mtrl_badge_numberless_content_description">Новое уведомление</string>
+    <string name="mtrl_chip_close_icon_content_description">Удалить \"%1$s\"</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Новых уведомлений больше %1$d</string>
+    <string name="mtrl_picker_a11y_next_month">Перейти к следующему месяцу</string>
+    <string name="mtrl_picker_a11y_prev_month">Перейти к предыдущему месяцу</string>
+    <string name="mtrl_picker_announce_current_selection">Выбранный элемент: %1$s</string>
+    <string name="mtrl_picker_cancel">Отмена</string>
+    <string name="mtrl_picker_confirm">ОК</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Выберите дату</string>
+    <string name="mtrl_picker_date_header_unselected">Выбранная дата</string>
+    <string name="mtrl_picker_day_of_week_column_header">Столбец со днями недели: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Недействительный формат.</string>
+    <string name="mtrl_picker_invalid_format_example">Пример: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Используйте: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Недопустимый диапазон.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Перейти к %1$s году</string>
+    <string name="mtrl_picker_out_of_range">Вне диапазона: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Дата начала – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – дата окончания</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Выберите диапазон дат</string>
+    <string name="mtrl_picker_range_header_unselected">Дата начала – дата окончания</string>
+    <string name="mtrl_picker_save">Сохранить</string>
+    <string name="mtrl_picker_text_input_date_hint">Дата</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Дата окончания</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Дата начала</string>
+    <string name="mtrl_picker_text_input_day_abbr">д</string>
+    <string name="mtrl_picker_text_input_month_abbr">м</string>
+    <string name="mtrl_picker_text_input_year_abbr">г</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Перейти в режим выбора дней</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Нажмите, чтобы перейти к выбору дня</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Перейти в режим ввода текста</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Нажмите, чтобы перейти к выбору года</string>
+    <string name="mtrl_timepicker_cancel">Отмена</string>
+    <string name="mtrl_timepicker_confirm">ОК</string>
+    <string name="password_toggle_content_description">Показать пароль</string>
+    <string name="search_menu_title">Поиск</string>
+    <string name="status_bar_notification_info_overflow">>999</string>
+    <string name="strAm">Morning</string>
+    <string name="strAmPmExplanation">February 29/Leap Day is known as 0.0.Hunab Ku – a day of pure timelessness. For Feb 29 Birthdays: If you were born on February 29 before noon local time, February 28 is used. If you were born after noon local time, March 1 is used to find your galactic signature.</string>
+    <string name="strAnalog">Сила аналога</string>
+    <string name="strAntipode">Антипод</string>
+    <string name="strChangeDateMessage">Tap on the date fields to edit them.</string>
+    <string name="strChangeDateMessagev11">Double tap on the date fields to edit them.</string>
+    <string name="strChangeDateMessagev21">Long press (1 second) on the date fields to edit them.</string>
+    <string name="strDestiny">Определение</string>
+    <string name="strExitQuestion">Вы уверены что хотите выйти?</string>
+    <string name="strFirstQuarterMoon">Первая четверть</string>
+    <string name="strFullMoon">Полнолуние</string>
+    <string name="strGuide">Проводник</string>
+    <string name="strHelp">ПОМОЩЬ</string>
+    <string name="strHome">ПЕЧАТЬ (КИН)</string>
+    <string name="strLastQuarterMoon">Третья четверть</string>
+    <string name="strMoonphase">ФАЗЫ ЛУНЫ</string>
+    <string name="strNewMoon">Новолуние</string>
+    <string name="strNo">Нет</string>
+    <string name="strOccult">Сила учителя</string>
+    <string name="strOracle">ОРАКУЛ</string>
+    <string name="strPm">Afternoon</string>
+    <string name="strPsi">PSI CHRONO</string>
+    <string name="strShareScreenshotPermissionsRequired">Это разрешение требуется для совместного использования снимка экрана, так как приложение должно будет сохранить файл изображения в галерее перед его совместным использованием.</string>
+    <string name="strThirteenmoon">КАЛЕНДАРЬ 13 ЛУН</string>
+    <string name="strTzolkin">ЦОЛЬКИН</string>
+    <string name="strWaningCrescentMoon">Убывающий месяц</string>
+    <string name="strWaningGibbousMoon">Убывающая Луна</string>
+    <string name="strWavespell">ВОЛНОВОЙ МОДУЛЬ</string>
+    <string name="strWaxingCrescentMoon">Растущий месяц</string>
+    <string name="strWaxingGibbousMoon">Растущая луна</string>
+    <string name="strWhatsNewContent">"Версия 1.0.0
+
+Полная современная перестройка календаря Dreamspell.
+
+Возможности
+- Галактическая печать — ваш кин, тон и солнечная печать на любой день
+- Оракул судьбы — оракул из пяти кинов и скрытая печать Пси-Хроно
+- Волна — 13-тоновая волна дня
+- Цолькин — полная матрица из 260 кинов с Галактическими порталами активации
+- Фаза Луны — текущая фаза Луны и освещённость
+- Календарь 13 лун — год из 13 лун по 28 дней
+- Комбинатор кинов — объедините несколько кинов в один, по датам или из Цолькина
+- Кодекс — Гармоники, Хроматики и Человеческий и Планетарный Холон
+- Выбор дня и даты для перехода к любому дню
+- Справка по каждому экрану
+
+Языки
+- Английский
+- Испанский
+- Французский
+- Нидерландский
+- Русский
+- Китайский (упрощённый и традиционный)
+- Науатль
+- Юкатекский майя"</string>
+    <string name="strWhatsNewTitle">Что нового?</string>
+    <string name="strYes">Да</string>
+    <string name="helpNavTitle">"Навигация"</string>
+    <string name="helpNavIntro">"Проведите влево или вправо — или коснитесь значка на нижней панели — чтобы переключаться между четырьмя основными экранами. «Ещё» открывается только касанием."</string>
+    <string name="helpDestSignature">"Галактическая подпись — кин сегодняшнего дня, его тон и печать."</string>
+    <string name="helpDestOracle">"Оракул судьбы — оракул из пяти печатей и скрытая печать PSI (Акаша)."</string>
+    <string name="helpDestWavespell">"Волна — 13-дневная волна текущего кина."</string>
+    <string name="helpDestTzolkin">"Цолькин — полный гармонический модуль из 260 кинов."</string>
+    <string name="helpDestMore">"Ещё — календарь 13 Лун, фаза Луны, Холон и кодекс."</string>
+    <string name="helpDayTitle">"Смена дня"</string>
+    <string name="helpDayBody">"Переключатель ‹ Сегодня › внизу перемещает на день назад или вперёд. «Сегодня» остаётся приглушённым, пока вы на текущем дне, и становится золотым, когда вы уходите с него — коснитесь, чтобы вернуться. Для далёкой даты коснитесь значка календаря на верхней панели и выберите любой день."</string>
+    <string name="helpTapTitle">"Чтение подписи"</string>
+    <string name="helpTapBody">"Коснитесь любого глифа или тона, чтобы увидеть его название, значение и цветовое семейство. Печати сохраняют традиционные цвета — красный, белый, синий и жёлтый — а тоны своё галактическое золото."</string>
+    <string name="helpSettingsTitle">"Настройки"</string>
+    <string name="helpSettingsBody">"Откройте шестерёнку на верхней панели, чтобы сменить язык, выбрать способ отображения печати PSI (Акаша) и прочитать, что нового в этой версии."</string>
+    <string name="kcTitle">"Комбинатор кинов"</string>
+    <string name="kcModeDate">"По дате"</string>
+    <string name="kcModeTzolkin">"Из Цолькина"</string>
+    <string name="kcDateHint">"Выберите дату, чтобы добавить её кин"</string>
+    <string name="kcPickDate">"Выбрать дату"</string>
+    <string name="kcResolvesTo">"Соответствует"</string>
+    <string name="kcAddKin">"Добавить кин"</string>
+    <string name="kcListHeader">"Кины для объединения"</string>
+    <string name="kcEmpty">"Пока нет кинов. Добавьте несколько, чтобы объединить их."</string>
+    <string name="kcResultCap">"Объединено"</string>
+    <string name="kcPickerTitle">"Выбрать из Цолькина"</string>
+    <string name="kcPickerHint">"Коснитесь кинов, чтобы выбрать"</string>
+    <string name="kcPickerSelected">"Выбрано: %d"</string>
+    <string name="kcPickerAdd">"Добавить (%d)"</string>
+    <string name="kcClear">"Очистить всё"</string>
+    <string name="kcRemove">"Удалить"</string>
+    <string name="strNavSignature">"Подпись"</string>
+    <string name="strNavOracle">"Оракул"</string>
+    <string name="strNavWavespell">"Волна"</string>
+    <string name="strNavTzolkin">"Цолькин"</string>
+    <string name="tzLegendPortal">"Портал активации"</string>
+    <string name="strMoonIllumination">"%1$d%% освещена"</string>
+    <plurals name="kcResultCount">
+        <item quantity="one">Объединено · %d кин</item>
+        <item quantity="few">Объединено · %d кина</item>
+        <item quantity="many">Объединено · %d кинов</item>
+        <item quantity="other">Объединено · %d кина</item>
+    </plurals>
+    <string name="lbContribute">Если вы хотите внести вклад, напишите на адрес otherrealitybelieved@gmail.com</string>
+</resources>

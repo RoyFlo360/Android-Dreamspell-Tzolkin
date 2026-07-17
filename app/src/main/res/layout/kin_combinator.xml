@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Kin Combinator: fixed input header + scrolling kin list with an inline result footer,
+     plus a pinned result shown only while the inline one is scrolled off-screen (no-gap). -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <!-- ===== fixed input header ===== -->
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:padding="14dp">
+
+        <!-- mode toggle -->
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:background="@drawable/mw_help_card" android:layout_marginBottom="10dp">
+            <TextView android:id="@+id/kcSegDate" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+                android:gravity="center" android:padding="10dp" android:textSize="13sp" android:clickable="true" android:focusable="true"
+                android:text="@string/kcModeDate" android:textColor="@color/mw_gold" android:textStyle="bold" android:background="@color/mw_amethyst" />
+            <TextView android:id="@+id/kcSegTzolkin" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+                android:gravity="center" android:padding="10dp" android:textSize="13sp" android:clickable="true" android:focusable="true"
+                android:text="@string/kcModeTzolkin" android:textColor="@color/mw_cream_dim" />
+        </LinearLayout>
+
+        <!-- date mode -->
+        <LinearLayout android:id="@+id/kcDateMode" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="6dp"
+                android:textSize="@dimen/text_size" android:textColor="@color/mw_cream_dim" android:text="@string/kcDateHint" />
+            <TextView android:id="@+id/kcDateField" android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:background="@drawable/mw_help_card" android:padding="12dp" android:clickable="true" android:focusable="true"
+                android:textSize="@dimen/text_size" android:textColor="@color/mw_cream" android:text="@string/kcPickDate" />
+            <!-- resolved-kin preview (hidden until a date is picked) -->
+            <LinearLayout android:id="@+id/kcPreview" android:orientation="horizontal" android:gravity="center_vertical"
+                android:layout_width="match_parent" android:layout_height="wrap_content" android:visibility="gone"
+                android:background="@drawable/mw_help_card" android:padding="10dp" android:layout_marginTop="8dp">
+                <LinearLayout android:orientation="vertical" android:gravity="center_horizontal"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="10dp">
+                    <ImageView android:id="@+id/kcPreviewTone" android:layout_width="40dp" android:layout_height="15dp"
+                        android:scaleType="fitCenter" android:contentDescription="@string/dcTone" />
+                    <ImageView android:id="@+id/kcPreviewSeal" android:layout_width="40dp" android:layout_height="40dp"
+                        android:layout_marginTop="2dp" android:scaleType="fitCenter" android:contentDescription="@string/dcGlyph" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:textSize="10sp" android:textColor="@color/mw_turquoise" android:text="@string/kcResolvesTo" />
+                    <TextView android:id="@+id/kcPreviewName" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:textSize="@dimen/text_size" android:textStyle="bold" android:textColor="@color/mw_cream" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:id="@+id/kcAddKin" android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:layout_marginTop="9dp" android:background="@drawable/kc_btn_gold" android:padding="12dp"
+                android:gravity="center" android:textSize="14sp" android:textStyle="bold" android:textColor="@color/mw_obsidian"
+                android:clickable="true" android:focusable="true" android:text="@string/kcAddKin" android:visibility="gone" />
+        </LinearLayout>
+
+        <!-- tzolkin mode -->
+        <TextView android:id="@+id/kcOpenTzolkin" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:visibility="gone" android:background="@drawable/kc_btn_gold" android:padding="12dp"
+            android:gravity="center" android:textSize="14sp" android:textStyle="bold" android:textColor="@color/mw_obsidian"
+            android:clickable="true" android:focusable="true" android:text="@string/kcPickerTitle" />
+    </LinearLayout>
+
+    <!-- ===== scrolling list + inline result ===== -->
+    <androidx.core.widget.NestedScrollView android:id="@+id/kcScroll"
+        android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"
+        android:paddingLeft="14dp" android:paddingRight="14dp" android:clipToPadding="false">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+
+            <LinearLayout android:orientation="horizontal" android:gravity="center_vertical"
+                android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingBottom="6dp">
+                <TextView android:id="@+id/kcListHeader" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+                    android:textSize="15sp" android:textColor="@color/mw_gold" android:textStyle="bold" android:text="@string/kcListHeader" />
+                <TextView android:id="@+id/kcClear" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                    android:padding="4dp" android:clickable="true" android:focusable="true" android:visibility="gone"
+                    android:textSize="15sp" android:textColor="@color/mw_cream_dim" android:text="@string/kcClear" />
+            </LinearLayout>
+
+            <TextView android:id="@+id/kcEmpty" android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:padding="16dp" android:gravity="center" android:textSize="@dimen/text_size"
+                android:textColor="@color/mw_cream_dim" android:text="@string/kcEmpty" />
+
+            <!-- kin rows are added here -->
+            <LinearLayout android:id="@+id/kcList" android:orientation="vertical"
+                android:layout_width="match_parent" android:layout_height="wrap_content" />
+
+            <!-- inline result (end of list) -->
+            <LinearLayout android:id="@+id/kcInlineResult" android:orientation="horizontal" android:gravity="center_vertical"
+                android:layout_width="match_parent" android:layout_height="wrap_content" android:visibility="gone"
+                android:background="@drawable/mw_help_card" android:padding="12dp" android:layout_marginTop="6dp" android:layout_marginBottom="10dp">
+                <LinearLayout android:orientation="vertical" android:gravity="center_horizontal"
+                    android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="12dp">
+                    <ImageView android:id="@+id/kcInlineTone" android:layout_width="48dp" android:layout_height="17dp"
+                        android:scaleType="fitCenter" android:contentDescription="@string/dcTone" />
+                    <ImageView android:id="@+id/kcInlineSeal" android:layout_width="48dp" android:layout_height="48dp"
+                        android:layout_marginTop="2dp" android:scaleType="fitCenter" android:contentDescription="@string/dcGlyph" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                    <TextView android:id="@+id/kcInlineCap" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:textSize="13sp" android:textColor="@color/mw_gold" android:text="@string/kcResultCap" />
+                    <TextView android:id="@+id/kcInlineName" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:textSize="15sp" android:textStyle="bold" android:textColor="@color/mw_cream" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <!-- ===== pinned result (shown only while inline is scrolled off) ===== -->
+    <LinearLayout android:id="@+id/kcPinnedResult" android:orientation="horizontal" android:gravity="center_vertical"
+        android:layout_width="match_parent" android:layout_height="wrap_content" android:visibility="gone"
+        android:padding="12dp" android:background="@color/mw_card">
+        <LinearLayout android:orientation="vertical" android:gravity="center_horizontal"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginStart="4dp" android:layout_marginEnd="12dp">
+            <ImageView android:id="@+id/kcPinnedTone" android:layout_width="44dp" android:layout_height="16dp"
+                android:scaleType="fitCenter" android:contentDescription="@string/dcTone" />
+            <ImageView android:id="@+id/kcPinnedSeal" android:layout_width="44dp" android:layout_height="44dp"
+                android:layout_marginTop="2dp" android:scaleType="fitCenter" android:contentDescription="@string/dcGlyph" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView android:id="@+id/kcPinnedCap" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:textSize="13sp" android:textColor="@color/mw_gold" android:text="@string/kcResultCap" />
+            <TextView android:id="@+id/kcPinnedName" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:textSize="15sp" android:textStyle="bold" android:textColor="@color/mw_cream" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

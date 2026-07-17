@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Ir a inicio</string>
+    <string name="abc_action_bar_up_description">Desplazarse hacia arriba</string>
+    <string name="abc_action_menu_overflow_description">Más opciones</string>
+    <string name="abc_action_mode_done">Hecho</string>
+    <string name="abc_activity_chooser_view_see_all">Ver todo</string>
+    <string name="abc_activitychooserview_choose_application">Seleccionar una aplicación</string>
+    <string name="abc_capital_off">DESACTIVADO</string>
+    <string name="abc_capital_on">ACTIVADO</string>
+    <string name="abc_menu_alt_shortcut_label">Alt +</string>
+    <string name="abc_menu_ctrl_shortcut_label">Ctrl +</string>
+    <string name="abc_menu_delete_shortcut_label">Suprimir</string>
+    <string name="abc_menu_enter_shortcut_label">Intro</string>
+    <string name="abc_menu_function_shortcut_label">Función +</string>
+    <string name="abc_menu_meta_shortcut_label">Meta +</string>
+    <string name="abc_menu_shift_shortcut_label">Mayús +</string>
+    <string name="abc_menu_space_shortcut_label">Espacio</string>
+    <string name="abc_menu_sym_shortcut_label">Sym +</string>
+    <string name="abc_prepend_shortcut_label">Menú +</string>
+    <string name="abc_search_hint">Buscar…</string>
+    <string name="abc_searchview_description_clear">Borrar consulta</string>
+    <string name="abc_searchview_description_query">Consulta de búsqueda</string>
+    <string name="abc_searchview_description_search">Buscar</string>
+    <string name="abc_searchview_description_submit">Enviar consulta</string>
+    <string name="abc_searchview_description_voice">Búsqueda por voz</string>
+    <string name="abc_shareactionprovider_share_with">Compartir con</string>
+    <string name="abc_shareactionprovider_share_with_application">Compartir con %s</string>
+    <string name="abc_toolbar_collapse_description">Ocultar</string>
+    <string name="app_id">325055294248980</string>
+    <string name="app_name">Calendario del Encantamiento del Sueño</string>
+    <string name="bottomsheet_action_collapse">Ocultar la hoja inferior</string>
+    <string name="bottomsheet_action_expand">Mostrar la hoja inferior</string>
+    <string name="bottomsheet_action_expand_halfway">Desplegar hasta la mitad</string>
+    <string name="bottomsheet_drag_handle_clicked">Controlador de arrastre tocado dos veces</string>
+    <string name="bottomsheet_drag_handle_content_description">Controlador de arrastre</string>
+    <string name="btChangeDate">Cambiar Fecha</string>
+    <string name="btChangeLanguage">Xicpatla in tlahtōlli</string>
+    <string name="btChromatics">Cromáticas de 5 días</string>
+    <string name="btClose">Cerrar</string>
+    <string name="btCodex">Códices</string>
+    <string name="btHarmonics">Armónicas de 4 días</string>
+    <string name="btHolon">Holon</string>
+    <string name="btNextDay">Día Siguiente</string>
+    <string name="btPrevDay">Día Anterior</string>
+    <string name="btShareScreenshot">Compartir esta Pantalla</string>
+    <string name="btToday">Āxcān</string>
+    <string name="character_counter_content_description">Caracteres introducidos: %1$d de %2$d</string>
+    <string name="character_counter_overflowed_content_description">Límite de caracteres superado (%1$d de %2$d)</string>
+    <string name="clear_text_end_icon_content_description">Borrar texto</string>
+    <string name="dcGlyph">Sello</string>
+    <string name="dcTone">Tono</string>
+    <string name="error_icon_content_description">Error</string>
+    <string name="exposed_dropdown_menu_content_description">Mostrar menú desplegable</string>
+    <string name="icon_content_description">Icono del cuadro de diálogo</string>
+    <string name="item_view_role_description">Pestaña</string>
+    <string name="lbAnalog">Análogo</string>
+    <string name="lbAntipode">Antípoda</string>
+    <string name="lbControlsHelpBottom">"Al tocar un glifo, se va a mostrar la declaración del glifo y del tono que va con él.
+
+También hay un widget para la pantalla principal que muestra la fecha de hoy."</string>
+    <string name="lbControlsHelpTop">En la barra de arriba hay botones que permiten cambiar de fecha rápidamente. Es posible que no vea todos los botones, ya que la cantidad que usted ve depende del ancho de su pantalla:</string>
+    <string name="lbCredits">El Encantamiento del Sueño fue originalmente creado por José Argüelles y es mantenido por www.lawoftime.org.</string>
+    <string name="lbGuide">Tēyacānqui</string>
+    <string name="lbHelpIntro">"Esta aplicación presenta un oráculo sincronario galáctico, construido con una metafísica que refleja las energías de fechas específicas. Es un oráculo espiritual para el autoconocimiento, para descubrir el universo que llevas dentro; se basa en los calendarios de la civilización maya. Este oráculo no tiene valor histórico.
+
+El primer oráculo que se muestra (la Firma Galáctica) es siempre el oráculo de hoy. Puedes elegir cualquier fecha que sea importante para ti. La mayoría de las personas eligen su propio cumpleaños, pero puede ser cualquier otro día especial."</string>
+    <string name="lbMenuHelp">Dependiendo de su equipo, el botón de menú es por software o bien por hardware. Ambos tienen la misma función, que es desplegar el menú.</string>
+    <string name="lbMenuItemsHelp">En el menú hay ítems que proveen funcionalidades adicionales. Es posible que no vea todos los ítems, ya que la cantidad que usted ve depende del ancho de su pantalla.</string>
+    <string name="lbNextHelp">Este botón se usa para ir al día siguiente.</string>
+    <string name="lbOccult">Ichtaca</string>
+    <string name="lbPrevHelp">Este botón se usa para ir al día anterior.</string>
+    <string name="lbThanks">"- Karine Grimoux por la traducción al Francés.
+- Dimsanta por la traducción al Ruso.
+- Roberto por la traducción al Español.
+- Warrenchen por la traducción al Chino."</string>
+    <string name="lbThanksTitle">Gracias a:</string>
+    <string name="lbTodayHelp">Este botón se usa para ir al día de hoy.</string>
+    <string name="material_clock_toggle_content_description">Selecciona AM o PM</string>
+    <string name="material_hour_24h_suffix">%1$s horas</string>
+    <string name="material_hour_selection">Seleccionar hora</string>
+    <string name="material_hour_suffix">%1$s en punto</string>
+    <string name="material_minute_selection">Seleccionar minutos</string>
+    <string name="material_minute_suffix">%1$s minutos</string>
+    <string name="material_timepicker_am">A.M.</string>
+    <string name="material_timepicker_clock_mode_description">Cambia al modo de reloj para escribir la hora.</string>
+    <string name="material_timepicker_hour">Hora</string>
+    <string name="material_timepicker_minute">Minuto</string>
+    <string name="material_timepicker_pm">P.M.</string>
+    <string name="material_timepicker_select_time">Seleccionar la hora</string>
+    <string name="material_timepicker_text_input_mode_description">Cambia al modo de introducción de texto para escribir la hora.</string>
+    <string name="mtrl_badge_numberless_content_description">Notificación nueva</string>
+    <string name="mtrl_chip_close_icon_content_description">Retirar %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description">Más de %1$d notificaciones nuevas</string>
+    <string name="mtrl_picker_a11y_next_month">Cambiar al mes siguiente</string>
+    <string name="mtrl_picker_a11y_prev_month">Cambiar al mes anterior</string>
+    <string name="mtrl_picker_announce_current_selection">Selección actual: %1$s</string>
+    <string name="mtrl_picker_cancel">Cancelar</string>
+    <string name="mtrl_picker_confirm">Aceptar</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Selecciona una fecha</string>
+    <string name="mtrl_picker_date_header_unselected">Fecha seleccionada</string>
+    <string name="mtrl_picker_day_of_week_column_header">Columna de días: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Formato no válido.</string>
+    <string name="mtrl_picker_invalid_format_example">Ejemplo: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Usar: %1$s</string>
+    <string name="mtrl_picker_invalid_range">El periodo no es válido.</string>
+    <string name="mtrl_picker_navigate_to_year_description">Ir al año %1$s</string>
+    <string name="mtrl_picker_out_of_range">Fuera del periodo válido: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Fecha de inicio–%1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s–Fecha de finalización</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Selecciona un periodo</string>
+    <string name="mtrl_picker_range_header_unselected">Fecha de inicio–Fecha de finalización</string>
+    <string name="mtrl_picker_save">Guardar</string>
+    <string name="mtrl_picker_text_input_date_hint">Fecha</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Fecha de finalización</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Fecha de inicio</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">a</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Cambiar al modo de introducción Calendario</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Toca para seleccionar un día</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Cambiar al modo de introducción Texto</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Toca para seleccionar un año</string>
+    <string name="mtrl_timepicker_cancel">Cancelar</string>
+    <string name="mtrl_timepicker_confirm">Aceptar</string>
+    <string name="password_toggle_content_description">Mostrar contraseña</string>
+    <string name="search_menu_title">Buscar</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="strAm">Mañana</string>
+    <string name="strAmPmExplanation">El 29 de Febrero se conoce como 0.0.Hunab Ku - un día sin tiempo. Para hallar su firma galáctica si usted nació un 29 de Febrero: si nació antes de mediodía, hora local, use el 28 de Febrero. Si nació después del mediodía, hora local, use el 1 de Marzo.</string>
+    <string name="strAnalog">Poder Análogo</string>
+    <string name="strAntipode">Antípoda</string>
+    <string name="strChangeDateMessage">Toque en los campos de fecha para editarlos.</string>
+    <string name="strChangeDateMessagev11">Doble toque en los campos de fecha para editarlos.</string>
+    <string name="strChangeDateMessagev21">Toque largo (1 segundo) en los campos de fecha para editarlos.</string>
+    <string name="strDestiny">Tōnalli</string>
+    <string name="strExitQuestion">¿Está seguro que quiere salir?</string>
+    <string name="strFirstQuarterMoon">Cuarto Creciente</string>
+    <string name="strFullMoon">Luna Llena</string>
+    <string name="strGuide">Guía</string>
+    <string name="strHelp">Tēpālēhuiliztli</string>
+    <string name="strHome">FIRMA GALACTICA</string>
+    <string name="strLastQuarterMoon">Cuarto Menguante</string>
+    <string name="strMoonphase">Mētztli īxeliuhca</string>
+    <string name="strNewMoon">Luna Nueva</string>
+    <string name="strNo">No</string>
+    <string name="strOccult">Poder Oculto</string>
+    <string name="strOracle">ORACULO DEL DESTINO</string>
+    <string name="strPm">Tarde</string>
+    <string name="strPsi">PSI-CRONO</string>
+    <string name="strShareScreenshotPermissionsRequired">Se requiere este permiso para compartir un pantallazo, porque la app tendrá que grabar un archivo de imagen en tu almacenamiento antes de compartirlo.</string>
+    <string name="strThirteenmoon">CALENDARIO DE LAS 13 LUNAS</string>
+    <string name="strTzolkin">TZOLKIN</string>
+    <string name="strWaningCrescentMoon">Luna Menguante</string>
+    <string name="strWaningGibbousMoon">Luna Gibosa Menguante</string>
+    <string name="strWavespell">ONDA ENCANTADA</string>
+    <string name="strWaxingCrescentMoon">Luna Creciente</string>
+    <string name="strWaxingGibbousMoon">Luna Gibosa Creciente</string>
+    <string name="strWhatsNewContent">"Versión 1.0.0
+
+Una reconstrucción completa y moderna del Calendario Dreamspell.
+
+Funciones
+- Firma Galáctica — tu kin, tono y sello solar para cualquier día
+- Oráculo del Destino — el oráculo de cinco kines más el sello oculto Psi-Crono
+- Onda Encantada — la onda encantada de 13 tonos del día
+- Tzolkin — la matriz completa de 260 kines con los Portales de Activación Galáctica
+- Fase Lunar — la fase lunar actual y su iluminación
+- Calendario de 13 Lunas — el año de 13 lunas y 28 días
+- Combinador de Kines — combina varios kines en uno, desde fechas o desde el Tzolkin
+- Códice — Armónicas, Cromáticas y el Holón Humano y Planetario
+- Selector de día y de fecha para viajar a cualquier día
+- Guía de ayuda para cada pantalla
+
+Idiomas
+- Inglés
+- Español
+- Francés
+- Neerlandés
+- Ruso
+- Chino (simplificado y tradicional)
+- Náhuatl
+- Maya yucateco"</string>
+    <string name="strWhatsNewTitle">Novedades</string>
+    <string name="strYes">Si</string>
+    <string name="helpNavTitle">"Navegación"</string>
+    <string name="helpNavIntro">"Desliza a izquierda o derecha —o toca un icono de la barra inferior— para moverte entre las cuatro pantallas principales. «Más» solo se abre con un toque."</string>
+    <string name="helpDestSignature">"Firma Galáctica: el kin de hoy, su tono y su sello."</string>
+    <string name="helpDestOracle">"Oráculo del Destino: el oráculo de los cinco sellos más el sello oculto PSI (Akáshico)."</string>
+    <string name="helpDestWavespell">"Onda Encantada: la onda de 13 días del kin actual."</string>
+    <string name="helpDestTzolkin">"Tzolkin: el módulo armónico completo de 260 kin."</string>
+    <string name="helpDestMore">"Más: calendario de 13 Lunas, fase lunar, Holón y el códice."</string>
+    <string name="helpDayTitle">"Cambiar el día"</string>
+    <string name="helpDayBody">"El selector ‹ Hoy › de abajo avanza o retrocede un día. «Hoy» permanece atenuado mientras estás en el día actual y se vuelve dorado al alejarte; tócalo para volver. Para una fecha lejana, toca el icono de calendario de la barra superior y elige cualquier día."</string>
+    <string name="helpTapTitle">"Leer una firma"</string>
+    <string name="helpTapBody">"Toca cualquier glifo o tono para ver su nombre, significado y familia de color. Los sellos conservan sus colores tradicionales —rojo, blanco, azul y amarillo— y los tonos su dorado galáctico."</string>
+    <string name="helpSettingsTitle">"Ajustes"</string>
+    <string name="helpSettingsBody">"Abre el engranaje de la barra superior para cambiar el idioma, elegir cómo se muestra el sello PSI (Akáshico) y leer las novedades de esta versión."</string>
+    <string name="kcTitle">"Combinador de Kins"</string>
+    <string name="kcModeDate">"Por fecha"</string>
+    <string name="kcModeTzolkin">"Desde el Tzolkin"</string>
+    <string name="kcDateHint">"Elige una fecha para añadir su kin"</string>
+    <string name="kcPickDate">"Elegir fecha"</string>
+    <string name="kcResolvesTo">"Corresponde a"</string>
+    <string name="kcAddKin">"Añadir kin"</string>
+    <string name="kcListHeader">"Kins a combinar"</string>
+    <string name="kcEmpty">"Aún no hay kins. Añade algunos para combinarlos."</string>
+    <string name="kcResultCap">"Combinado"</string>
+    <string name="kcPickerTitle">"Elegir del Tzolkin"</string>
+    <string name="kcPickerHint">"Toca los kins para seleccionar"</string>
+    <string name="kcPickerSelected">"%d seleccionados"</string>
+    <string name="kcPickerAdd">"Añadir (%d)"</string>
+    <string name="kcClear">Xiquixtili mochi</string>
+    <string name="kcRemove">"Quitar"</string>
+    <string name="strNavSignature">Tōnalli</string>
+    <string name="strNavOracle">Tōnalāmatl</string>
+    <string name="strNavWavespell">Xōchmalli</string>
+    <string name="strNavTzolkin">Tōnalpōhualli</string>
+    <string name="tzLegendPortal">"Portal de Activación"</string>
+    <string name="strMoonIllumination">"%1$d%% iluminada"</string>
+    <plurals name="kcResultCount">
+        <item quantity="one">Combinado · %d kin</item>
+        <item quantity="other">Combinado · %d kins</item>
+    </plurals>
+    <string name="strMore">Oc cequi</string>
+    <string name="btWhatsNew">Tlein yancuīc</string>
+    <string name="btYes">Quēmah</string>
+    <string name="btNo">Ahmo</string>
+    <string name="lbContribute">Si quieres contribuir, escribe un correo a otherrealitybelieved@gmail.com</string>
+</resources>

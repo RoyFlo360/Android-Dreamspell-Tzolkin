@@ -24,5 +24,5 @@ The GPLv3 license explicitly forbids using this code in proprietary, closed-sour
 
 If your company wishes to integrate this code, use its logic, or redistribute a modified version without open-sourcing your entire proprietary application, **you must purchase a commercial license**.
 
-*   **Commercial Pricing:** Standard corporate licensing starts at `$500/year`.
+*   **Commercial Pricing:** Standard corporate licensing starts at `$1200/year`.
 *   **Contact:** Please reach out to `rodrigoflores360@gmail.com` to discuss commercial licensing terms.

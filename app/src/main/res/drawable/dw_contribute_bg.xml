@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Attention banner for the Help "contribute" call-to-action: turquoise→amethyst gradient, gold ring. -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <gradient android:startColor="@color/mw_turquoise" android:endColor="@color/mw_amethyst"
+        android:angle="45" />
+    <corners android:radius="14dp" />
+    <stroke android:width="2dp" android:color="@color/mw_gold" />
+</shape>

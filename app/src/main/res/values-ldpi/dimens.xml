@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="big_text_size">151.0dip</dimen>
+    <dimen name="flower_info_text_size">12.0dip</dimen>
+    <dimen name="glyph_width">52.0dip</dimen>
+    <dimen name="large_glyph_width">104.0dip</dimen>
+    <dimen name="large_tone_height">52.0dip</dimen>
+    <dimen name="text_size">13.0dip</dimen>
+    <dimen name="tone_height">26.0dip</dimen>
+    <dimen name="tzolkin_cell_dimen">13.0dip</dimen>
+    <dimen name="tzolkin_text_size">10.0dip</dimen>
+    <dimen name="wavespell_glyph_width">46.0dip</dimen>
+</resources>

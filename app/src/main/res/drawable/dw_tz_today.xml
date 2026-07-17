@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Today's Tzolkin cell: keeps a red fill but adds a gold ring so it pops out of the green field. -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <solid android:color="#7A2A16" />
+    <stroke android:width="3dp" android:color="@color/mw_gold" />
+</shape>

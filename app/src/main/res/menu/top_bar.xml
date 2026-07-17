@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/pickDate" android:icon="@drawable/selectday" android:title="@string/btChangeDate"
+        app:showAsAction="always" />
+    <item android:id="@+id/settings" android:icon="@drawable/ic_gear" android:title="@string/strSettings"
+        app:showAsAction="always">
+        <menu>
+            <item android:id="@+id/selectLanguage" android:title="@string/btChangeLanguage" />
+            <item android:id="@+id/whatsNew" android:title="@string/strWhatsNewTitle" />
+        </menu>
+    </item>
+</menu>
