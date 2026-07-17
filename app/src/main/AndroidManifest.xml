@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="34" android:compileSdkVersionCodename="14" platformBuildVersionCode="34" platformBuildVersionName="14">
-    <uses-permission android:minSdkVersion="33" android:name="android.permission.READ_MEDIA_IMAGES"/>
-    <uses-permission android:minSdkVersion="30" android:name="android.permission.ACCESS_MEDIA_LOCATION"/>
-    <uses-permission android:maxSdkVersion="32" android:name="android.permission.READ_EXTERNAL_STORAGE"/>
-    <uses-permission android:maxSdkVersion="29" android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <!-- The app is entirely offline and reads nothing from the device: no INTERNET, no storage,
+         no media permissions. The media/storage ones the original APK carried were left over from
+         the removed Share feature and are gone — they would have forced a Photo & Video Permissions
+         declaration we cannot justify. -->
     <permission android:name="com.imix.dreamspell_tzolkin.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature"/>
     <uses-permission android:name="com.imix.dreamspell_tzolkin.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"/>
-    <application android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:requestLegacyExternalStorage="true" android:theme="@style/DreamspellTheme">
+    <application android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:theme="@style/DreamspellTheme">
         <activity android:exported="true" android:label="@string/app_name" android:name="com.imix.dreamspell_tzolkin.OracleActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <provider android:authorities="com.imix.dreamspell_tzolkin.provider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
-            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/provider_paths"/>
-        </provider>
         <!-- No home-screen widget yet. -->
         <!-- Lets AppCompat persist the per-app language chosen in the Change Language dialog. -->
         <service android:name="androidx.appcompat.app.AppLocalesMetadataHolderService" android:enabled="false" android:exported="false">
