@@ -339,6 +339,7 @@ class OracleActivity : AppCompatActivity() {
         dialog.findViewById<TextView>(R.id.codexTitle).setText(titleRes)
         dialog.findViewById<ZoomStackView>(R.id.codexZoom).setImages(imageRes.toList())
         dialog.findViewById<View>(R.id.codexClose).setOnClickListener { dialog.dismiss() }
+        dialog.fitSystemBars()
         dialog.show()
     }
 
@@ -356,5 +357,22 @@ class OracleActivity : AppCompatActivity() {
     companion object {
         /** Swipeable primary destinations: Home, Oracle, Wavespell, Tzolkin. */
         private const val PRIMARY_COUNT = 4
+    }
+}
+
+/**
+ * The activity's root inset listener can't reach a Dialog — each one gets its own window. Under the
+ * edge-to-edge that targetSdk 35+ forces, their content ran full-bleed: the Codex viewer's close
+ * button sat under the status bar and the Tzolkin picker's Add/Cancel row under the navigation bar,
+ * leaving both unreachable. Padding the content root keeps every dialog inside the system bars.
+ */
+internal fun android.app.Dialog.fitSystemBars() {
+    val content = window?.findViewById<View>(android.R.id.content) ?: return
+    ViewCompat.setOnApplyWindowInsetsListener(content) { v, windowInsets ->
+        val bars = windowInsets.getInsets(
+            WindowInsetsCompat.Type.systemBars() or WindowInsetsCompat.Type.displayCutout()
+        )
+        v.setPadding(bars.left, bars.top, bars.right, bars.bottom)
+        WindowInsetsCompat.CONSUMED
     }
 }
