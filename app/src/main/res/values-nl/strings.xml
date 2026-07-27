@@ -225,4 +225,8 @@ Talen
         <item quantity="other">Gecombineerd · %d kins</item>
     </plurals>
     <string name="lbContribute">Als je wilt bijdragen, stuur dan een e-mail naar otherrealitybelieved@gmail.com</string>
+    <string name="strMore">Meer</string>
+    <string name="strSettings">Instellingen</string>
+    <string name="strPsiAkashic">PSI Chrono (Akasha)</string>
+    <string name="bmcButton">Trakteer me op een koffie</string>
 </resources>

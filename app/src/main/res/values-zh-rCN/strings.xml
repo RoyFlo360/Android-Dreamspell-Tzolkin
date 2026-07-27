@@ -224,4 +224,8 @@ Dreamspell 日历的全面现代重建。
         <item quantity="other">已组合 · %d 个 kin</item>
     </plurals>
     <string name="lbContribute">如果您想贡献支持，请发送电子邮件至 otherrealitybelieved@gmail.com</string>
+    <string name="strMore">更多</string>
+    <string name="strSettings">设置</string>
+    <string name="strPsiAkashic">PSI 时序（阿卡西）</string>
+    <string name="bmcButton">请我喝杯咖啡</string>
 </resources>

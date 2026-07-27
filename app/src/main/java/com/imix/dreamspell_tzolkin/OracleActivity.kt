@@ -318,8 +318,15 @@ class OracleActivity : AppCompatActivity() {
             }
         }.toTypedArray()
 
-        val currentTag = AppCompatDelegate.getApplicationLocales().toLanguageTags()
-        val checked = languageCodes.indexOfFirst { it.equals(currentTag, ignoreCase = true) }
+        // getApplicationLocales() is empty until the user picks one, so fall back to the locale the
+        // resources resolved with - otherwise nothing is marked on a fresh install. Match on
+        // language (+ country only where the list distinguishes it, zh-CN vs zh-TW) so en-MX still
+        // marks "en"; an unsupported device locale renders the default resources, i.e. English.
+        val current = AppCompatDelegate.getApplicationLocales()[0] ?: resources.configuration.locales[0]
+        val checked = languageCodes.indexOfFirst { code ->
+            val loc = Locale.forLanguageTag(code)
+            loc.language == current.language && (loc.country.isEmpty() || loc.country == current.country)
+        }.takeIf { it >= 0 } ?: 0
 
         AlertDialog.Builder(this)
             .setTitle(R.string.btChangeLanguage)
