@@ -121,10 +121,13 @@ class OracleFragment : DreamspellFragment(R.layout.flower) {
         val psiKin = Dreamspell.psiKinFor(currentDate)
         if (psiKin == null) {
             name.text = DreamspellData.moonName(requireContext(), 14) // "Day Out Of Time"
-            tone.setImageDrawable(null)
+            // No kin, so no tone - hide the strip rather than leave an empty one pushing the
+            // banner off-centre against the name.
+            tone.visibility = View.GONE
             glyph.setImageResource(R.drawable.bannerofpeace)
             glyph.setOnClickListener(null)
         } else {
+            tone.visibility = View.VISIBLE
             tone.setImageResource(drawableId("tone${Dreamspell.tone(psiKin)}"))
             glyph.setImageResource(drawableId("glyph${Dreamspell.seal(psiKin)}"))
             name.text = "Kin $psiKin: ${DreamspellData.kin(requireContext(), psiKin).galacticName}"

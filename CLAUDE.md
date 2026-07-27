@@ -53,7 +53,8 @@ adb shell am start -n com.imix.dreamspell_tzolkin/.OracleActivity
   `ViewPager2` (Home / Oracle / Wavespell / Tzolkin), a click-only "More" bottom
   sheet (13-Moon, Moon Phase, Help, Kin Combinator, Codex dialogs), the
   ‹ Today › date stepper, and the gear menu (date picker, Language, What's New).
-- **`controller/views/`** — custom views: `MoonPhaseView` (shaded phase disc),
+- **`controller/views/`** — custom views: `MoonPhaseView` (lunar disc art with the
+  unlit part redrawn darkened through a clip),
   `ZoomStackView` (pinch-zoom Codex images).
 
 ## Content & localization

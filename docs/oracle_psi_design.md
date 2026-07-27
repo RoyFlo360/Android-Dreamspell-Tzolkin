@@ -57,6 +57,9 @@ tablet=A.
 - Oracle cross math: existing oracle reducers (`flower.xml` slots:
   guide/destiny/antipode/analog/occult, each tone+glyph).
 - PSI tone+seal: separate source (the PSI Chrono table in `Dreamspell.kt`).
+  The Day Out of Time has no PSI kin: the card shows the Banner of Peace with
+  **no tone strip at all** (hide it, don't leave it empty - an empty strip
+  pushes the banner off the name's centreline).
   Data for both already exists — merging is a **layout change, not a
   math change**.
 - Glyph/tone art in the mockups are placeholders; wire the app's real

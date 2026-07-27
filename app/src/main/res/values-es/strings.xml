@@ -225,4 +225,8 @@ Idiomas
         <item quantity="other">Combinado · %d kins</item>
     </plurals>
     <string name="lbContribute">Si quieres contribuir, escribe un correo a otherrealitybelieved@gmail.com</string>
+    <string name="strMore">Más</string>
+    <string name="strSettings">Ajustes</string>
+    <string name="strPsiAkashic">PSI Crono (Akáshico)</string>
+    <string name="bmcButton">Invítame un café</string>
 </resources>
