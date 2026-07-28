@@ -153,6 +153,13 @@ class DreamspellMathTest {
         assertEquals(1, Dreamspell.wavespellNumber(13))
         assertEquals(2, Dreamspell.wavespellNumber(14))
         assertEquals(20, Dreamspell.wavespellNumber(260))
+
+        // The wavespell is named after the seal of its tone-1 kin, which is NOT the wavespell
+        // number: wavespell 2 starts at kin 14 (Wizard), wavespell 20 at kin 248 (Star).
+        assertEquals(1, Dreamspell.wavespellSeal(1))
+        assertEquals(14, Dreamspell.wavespellSeal(14))
+        assertEquals(14, Dreamspell.wavespellSeal(26))
+        assertEquals(8, Dreamspell.wavespellSeal(260))
     }
 
     // ---- moon phase angle: numeric sanity + determinism ----

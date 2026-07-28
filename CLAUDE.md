@@ -32,6 +32,8 @@ adb shell am start -n com.imix.dreamspell_tzolkin/.OracleActivity
 ./gradlew :app:bundleRelease   # -> app/build/outputs/bundle/release/app-release.aab
 ```
 
+- `bundle { language { enableSplit = false } }` is required: Play otherwise installs only the
+  device-language split and the in-app language picker silently falls back to English.
 - Signing reads `keystore.properties` at the repo root — **gitignored, never commit it**.
   It points at the upload keystore, which lives outside the repo. Without that file the
   release variant simply builds unsigned rather than failing, so fresh clones and CI work.
