@@ -22,7 +22,7 @@ android {
         minSdk = 26
         targetSdk = 36
         // Play never reuses a version code, even from a discarded upload: bump on every upload.
-        versionCode = 2
+        versionCode = 3
         versionName = "1.0.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
@@ -50,6 +50,15 @@ android {
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
+    }
+
+    // Play installs only the device-language split by default, so the in-app language picker
+    // switched the locale but every non-device language fell back to English. Ship all languages
+    // in the base APK - the whole point of this app is the language picker.
+    bundle {
+        language {
+            enableSplit = false
+        }
     }
 
     lint {

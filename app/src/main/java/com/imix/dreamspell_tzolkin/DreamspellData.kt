@@ -40,7 +40,9 @@ object DreamspellData {
     fun glyph(context: Context, seal: Int): GlyphInfo { checkLocale(context); return loadGlyphs(context)[seal - 1] }
     fun tone(context: Context, tone: Int): ToneInfo { checkLocale(context); return loadTones(context)[tone - 1] }
     fun kin(context: Context, kin: Int): KinInfo { checkLocale(context); return loadKins(context)[kin - 1] }
-    fun wavespellName(context: Context, wavespellNumber: Int): String { checkLocale(context); return loadWavespellNames(context)[wavespellNumber - 1] }
+    /** Wavespells are named after the seal of their tone-1 kin, so this is indexed by seal (1-20),
+     *  not by wavespell number - see Dreamspell.wavespellSeal. */
+    fun wavespellName(context: Context, seal: Int): String { checkLocale(context); return loadWavespellNames(context)[seal - 1] }
     fun moonName(context: Context, moonIndex: Int): String { checkLocale(context); return loadMoonNames(context)[moonIndex - 1] }
 
     private fun loadGlyphs(context: Context): List<GlyphInfo> = glyphs ?: parseRecords(context, R.raw.glyphs, "glyph") { get ->

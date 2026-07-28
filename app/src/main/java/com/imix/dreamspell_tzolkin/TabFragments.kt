@@ -201,7 +201,7 @@ class WavespellFragment : DreamspellFragment(R.layout.wavespell) {
         }
 
         view.findViewById<TextView>(R.id.wavespellName).text =
-            DreamspellData.wavespellName(requireContext(), wavespellNum)
+            DreamspellData.wavespellName(requireContext(), Dreamspell.wavespellSeal(kin))
     }
 }
 
