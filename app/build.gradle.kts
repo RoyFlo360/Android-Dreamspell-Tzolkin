@@ -22,7 +22,7 @@ android {
         minSdk = 26
         targetSdk = 36
         // Play never reuses a version code, even from a discarded upload: bump on every upload.
-        versionCode = 3
+        versionCode = 4
         versionName = "1.0.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"

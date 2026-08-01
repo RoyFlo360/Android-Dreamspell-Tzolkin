@@ -65,6 +65,10 @@ adb shell am start -n com.imix.dreamspell_tzolkin/.OracleActivity
   one set per locale (`raw/`, `raw-es/`, `raw-fr/`, …). `DreamspellData` parses
   these `<record><field>…</field></record>` files; Android picks the locale
   variant automatically.
+- **These files must be UTF-8 with no BOM.** They carry no `<?xml?>` prolog, so the
+  parser decodes them as UTF-8 unconditionally: an ISO-8859-1 file renders accents as
+  ◇ replacement glyphs, and a BOM makes SAX throw "content is not allowed in prolog".
+  `RawContentEncodingTest` guards both.
 - Language switching uses `AppCompatDelegate.setApplicationLocales` + the
   `AppLocalesMetadataHolderService` in the manifest. **The launcher activity must
   NOT declare `configChanges="locale"`**, or in-app locale switching breaks.

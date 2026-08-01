@@ -34,16 +34,16 @@
     <string name="bottomsheet_action_expand_halfway">Desplegar hasta la mitad</string>
     <string name="bottomsheet_drag_handle_clicked">Controlador de arrastre tocado dos veces</string>
     <string name="bottomsheet_drag_handle_content_description">Controlador de arrastre</string>
-    <string name="btChangeDate">Cambiar Fecha</string>
+    <string name="btChangeDate">Cambiar fecha</string>
     <string name="btChangeLanguage">Cambiar idioma</string>
     <string name="btChromatics">Cromáticas de 5 días</string>
     <string name="btClose">Cerrar</string>
     <string name="btCodex">Códices</string>
     <string name="btHarmonics">Armónicas de 4 días</string>
     <string name="btHolon">Holón</string>
-    <string name="btNextDay">Día Siguiente</string>
-    <string name="btPrevDay">Día Anterior</string>
-    <string name="btShareScreenshot">Compartir esta Pantalla</string>
+    <string name="btNextDay">Día siguiente</string>
+    <string name="btPrevDay">Día anterior</string>
+    <string name="btShareScreenshot">Compartir esta pantalla</string>
     <string name="btToday">Hoy</string>
     <string name="character_counter_content_description">Caracteres introducidos: %1$d de %2$d</string>
     <string name="character_counter_overflowed_content_description">Límite de caracteres superado (%1$d de %2$d)</string>
@@ -70,10 +70,10 @@ El primer oráculo que se muestra (la Firma Galáctica) es siempre el oráculo d
     <string name="lbNextHelp">Este botón se usa para ir al día siguiente.</string>
     <string name="lbOccult">Oculto</string>
     <string name="lbPrevHelp">Este botón se usa para ir al día anterior.</string>
-    <string name="lbThanks">"- Karine Grimoux por la traducción al Francés.
-- Dimsanta por la traducción al Ruso.
-- Roberto por la traducción al Español.
-- Warrenchen por la traducción al Chino."</string>
+    <string name="lbThanks">"- Karine Grimoux por la traducción al francés.
+- Dimsanta por la traducción al ruso.
+- Roberto por la traducción al español.
+- Warrenchen por la traducción al chino."</string>
     <string name="lbThanksTitle">Gracias a:</string>
     <string name="lbTodayHelp">Este botón se usa para ir al día de hoy.</string>
     <string name="material_clock_toggle_content_description">Selecciona AM o PM</string>
@@ -129,25 +129,25 @@ El primer oráculo que se muestra (la Firma Galáctica) es siempre el oráculo d
     <string name="search_menu_title">Buscar</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="strAm">Mañana</string>
-    <string name="strAmPmExplanation">El 29 de Febrero se conoce como 0.0.Hunab Ku - un día sin tiempo. Para hallar su firma galáctica si usted nació un 29 de Febrero: si nació antes de mediodía, hora local, use el 28 de Febrero. Si nació después del mediodía, hora local, use el 1 de Marzo.</string>
-    <string name="strAnalog">Poder Análogo</string>
+    <string name="strAmPmExplanation">El 29 de febrero se conoce como 0.0.Hunab Ku - un día sin tiempo. Para hallar su firma galáctica si usted nació un 29 de febrero: si nació antes de mediodía, hora local, use el 28 de febrero. Si nació después del mediodía, hora local, use el 1 de marzo.</string>
+    <string name="strAnalog">Poder análogo</string>
     <string name="strAntipode">Antípoda</string>
     <string name="strChangeDateMessage">Toque en los campos de fecha para editarlos.</string>
     <string name="strChangeDateMessagev11">Doble toque en los campos de fecha para editarlos.</string>
     <string name="strChangeDateMessagev21">Toque largo (1 segundo) en los campos de fecha para editarlos.</string>
     <string name="strDestiny">Destino</string>
-    <string name="strExitQuestion">¿Está seguro que quiere salir?</string>
+    <string name="strExitQuestion">¿Está seguro de que quiere salir?</string>
     <string name="strFirstQuarterMoon">Cuarto Creciente</string>
     <string name="strFullMoon">Luna Llena</string>
     <string name="strGuide">Guía</string>
     <string name="strHelp">AYUDA</string>
-    <string name="strHome">FIRMA GALACTICA</string>
+    <string name="strHome">FIRMA GALÁCTICA</string>
     <string name="strLastQuarterMoon">Cuarto Menguante</string>
     <string name="strMoonphase">FASE LUNAR</string>
     <string name="strNewMoon">Luna Nueva</string>
     <string name="strNo">No</string>
-    <string name="strOccult">Poder Oculto</string>
-    <string name="strOracle">ORACULO DEL DESTINO</string>
+    <string name="strOccult">Poder oculto</string>
+    <string name="strOracle">ORÁCULO DEL DESTINO</string>
     <string name="strPm">Tarde</string>
     <string name="strPsi">PSI-CRONO</string>
     <string name="strShareScreenshotPermissionsRequired">Se requiere este permiso para compartir un pantallazo, porque la app tendrá que grabar un archivo de imagen en tu almacenamiento antes de compartirlo.</string>
@@ -184,7 +184,7 @@ Idiomas
 - Náhuatl
 - Maya yucateco"</string>
     <string name="strWhatsNewTitle">Novedades</string>
-    <string name="strYes">Si</string>
+    <string name="strYes">Sí</string>
     <string name="helpNavTitle">"Navegación"</string>
     <string name="helpNavIntro">"Desliza a izquierda o derecha —o toca un icono de la barra inferior— para moverte entre las cuatro pantallas principales. «Más» solo se abre con un toque."</string>
     <string name="helpDestSignature">"Firma Galáctica: el kin de hoy, su tono y su sello."</string>
