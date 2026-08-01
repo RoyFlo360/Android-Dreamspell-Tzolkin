@@ -8,24 +8,28 @@ all logic under test is pure (`Dreamspell.kt`) or a pure parser.
 ## Run
 
 ```bash
-# Unit tests (48, ~7s, offline)
+# Unit tests (59, ~7s, offline)
 ./gradlew :app:testDebugUnitTest \
   --tests "com.imix.dreamspell_tzolkin.DreamspellMathTest" \
   --tests "com.imix.dreamspell_tzolkin.MoonPhaseNameTest" \
   --tests "com.imix.dreamspell_tzolkin.ParseRecordsTest" \
-  --tests "com.imix.dreamspell_tzolkin.DayNavigationStateTest"
+  --tests "com.imix.dreamspell_tzolkin.DayNavigationStateTest" \
+  --tests "com.imix.dreamspell_tzolkin.CombineKinsTest" \
+  --tests "com.imix.dreamspell_tzolkin.RawContentEncodingTest"
 
 # BDD / Gherkin (run locally — needs network on first run for Cucumber deps)
 ./gradlew :app:testDebugUnitTest --tests "com.imix.dreamspell_tzolkin.bdd.RunCucumberTest"
 ```
 
-## Unit suites (48 tests)
+## Unit suites (59 tests)
 
 | Class | Count | Covers |
 |-------|-------|--------|
 | `DreamspellMathTest` | 21 | kin/tone/seal/wavespell/occult/antipode/guide/analog; BVA (kin 1/2/130/131/260/261-wrap); involution (occult∘occult, antipode∘antipode); every (seal,tone) unique; leap-day noon repeat |
 | `MoonPhaseNameTest` | 10 | `moonPhaseName` decision table — 8 phases + boundary angles (7/83/97/173/187/263/277/353) + normalization of negative/>360 |
-| `ParseRecordsTest` | 10 | pure StAX parser: empty file, missing field→"", weird chars (accented/CJK/Cyrillic/emoji), XML entities, multiline text, malformed |
+| `ParseRecordsTest` | 10 | pure SAX parser: empty file, missing field→"", weird chars (accented/CJK/Cyrillic/emoji), XML entities, multiline text, malformed |
+| `CombineKinsTest` | 7 | kin combination arithmetic (260-wrap, single kin, empty list) |
+| `RawContentEncodingTest` | 4 | the shipped `res/raw*` files on disk: valid UTF-8, no BOM, no U+FFFD, every file parses, Spanish titles keep their accents |
 | `DayNavigationStateTest` | 7 | `isSameDay` + stepper state transitions (kin wrap 260→1, year Dec31→Jan1, into/out of Day-Out-of-Time) |
 
 ## Applicable test types → where
@@ -38,8 +42,7 @@ above and the `.feature` files.
 
 - **Security / auth / injection** — no network, no auth, no user-supplied
   strings, no IPC beyond the OS date picker (bounded ints). Only external input
-  is app-owned `res/raw`. Parser hardened anyway: StAX with `SUPPORT_DTD=false`
-  and `IS_SUPPORTING_EXTERNAL_ENTITIES=false` (no XXE).
+  is app-owned `res/raw` — validated for encoding by `RawContentEncodingTest`.
 - **API / integration (network)** — no APIs exist.
 - **JSON / dict / SQL empties** — no JSON, no DB, no maps as inputs.
 - **Performance** — all math is O(1) or O(260) over fixed tables; no hot path.
